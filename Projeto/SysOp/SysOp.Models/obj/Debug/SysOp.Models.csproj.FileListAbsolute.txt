@@ -1,0 +1,5 @@
+C:\Users\Anderson Tavares\Documents\Visual Studio 2013\Projects\SysOp\SysOp.Models\bin\Debug\SysOp.Models.dll
+C:\Users\Anderson Tavares\Documents\Visual Studio 2013\Projects\SysOp\SysOp.Models\bin\Debug\SysOp.Models.pdb
+C:\Users\Anderson Tavares\Documents\Visual Studio 2013\Projects\SysOp\SysOp.Models\obj\Debug\SysOp.Models.csprojResolveAssemblyReference.cache
+C:\Users\Anderson Tavares\Documents\Visual Studio 2013\Projects\SysOp\SysOp.Models\obj\Debug\SysOp.Models.dll
+C:\Users\Anderson Tavares\Documents\Visual Studio 2013\Projects\SysOp\SysOp.Models\obj\Debug\SysOp.Models.pdb
