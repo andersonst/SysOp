@@ -1,0 +1,9 @@
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\SysOp.Data.dll.config
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\SysOp.Data.dll
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\SysOp.Data.pdb
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\EntityFramework.dll
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\EntityFramework.xml
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\obj\Debug\SysOp.Data.dll
+c:\users\anderson\documents\visual studio 2013\Projects\SysOp\SysOp.Data\obj\Debug\SysOp.Data.pdb
