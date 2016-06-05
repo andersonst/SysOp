@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EE479DE-3214-472D-8AE5-0610DF622D66}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisOpe.Data.Context</RootNamespace>
+    <AssemblyName>SisOpe.Data.Context</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexto\SysOpContext.cs" />
+    <Compile Include="Mapping\AcessoMap.cs" />
+    <Compile Include="Mapping\AcessoUsuarioMap.cs" />
+    <Compile Include="Mapping\ArquivosOrdemServicoMap.cs" />
+    <Compile Include="Mapping\Contato_PJMap.cs" />
+    <Compile Include="Mapping\CotacaoMap.cs" />
+    <Compile Include="Mapping\DepartamentoMap.cs" />
+    <Compile Include="Mapping\EmailMap.cs" />
+    <Compile Include="Mapping\EnderecoMap.cs" />
+    <Compile Include="Mapping\EntradaProdutoMap.cs" />
+    <Compile Include="Mapping\EntradaProdutoNFMap.cs" />
+    <Compile Include="Mapping\EquipeOrdemServicoMap.cs" />
+    <Compile Include="Mapping\FinalidadeMap.cs" />
+    <Compile Include="Mapping\FormaPagamentoMap.cs" />
+    <Compile Include="Mapping\FornecedorCotacaoMap.cs" />
+    <Compile Include="Mapping\FuncionarioMap.cs" />
+    <Compile Include="Mapping\HistoricoOrdemServicoMap.cs" />
+    <Compile Include="Mapping\HistoricoStatusCotacaoMap.cs" />
+    <Compile Include="Mapping\ItemEntradaEstoqueMap.cs" />
+    <Compile Include="Mapping\ItemEstoqueMap.cs" />
+    <Compile Include="Mapping\ItemPedidoCompraCotacaoMap.cs" />
+    <Compile Include="Mapping\ItemPedidoCompraMap.cs" />
+    <Compile Include="Mapping\ItemProdutoNotaFiscalMap.cs" />
+    <Compile Include="Mapping\ItemReservaProdutoMap.cs" />
+    <Compile Include="Mapping\ItemReservaVendaProdutoMap.cs" />
+    <Compile Include="Mapping\ItemRetornoCotacaoMap.cs" />
+    <Compile Include="Mapping\ItemSolicitacaoCompraCotacaoMap.cs" />
+    <Compile Include="Mapping\ItemSolicitacaoCompraMap.cs" />
+    <Compile Include="Mapping\ItemTransferenciaEstoqueMap.cs" />
+    <Compile Include="Mapping\ItemVendaEstoqueMap.cs" />
+    <Compile Include="Mapping\MarcaProdutoMap.cs" />
+    <Compile Include="Mapping\NotaFiscalMap.cs" />
+    <Compile Include="Mapping\OrdemServicoMap.cs" />
+    <Compile Include="Mapping\PagamentoOrdemServicoMap.cs" />
+    <Compile Include="Mapping\PagamentoPedidoCompraMap.cs" />
+    <Compile Include="Mapping\PagamentoRetornoCotacaoMap.cs" />
+    <Compile Include="Mapping\PedidoCompraMap.cs" />
+    <Compile Include="Mapping\PessoaFisicaMap.cs" />
+    <Compile Include="Mapping\PessoaJuridicaMap.cs" />
+    <Compile Include="Mapping\PessoaMap.cs" />
+    <Compile Include="Mapping\ProdutoCotacaoMap.cs" />
+    <Compile Include="Mapping\ProdutoMap.cs" />
+    <Compile Include="Mapping\ProfissaoFuncionarioMap.cs" />
+    <Compile Include="Mapping\ProfissaoMap.cs" />
+    <Compile Include="Mapping\ReservaMap.cs" />
+    <Compile Include="Mapping\SolicitacaoCompraMap.cs" />
+    <Compile Include="Mapping\SolicitacaoPedidoCompraMap.cs" />
+    <Compile Include="Mapping\StatusCotacaoMap.cs" />
+    <Compile Include="Mapping\StatusOrdemServicoMap.cs" />
+    <Compile Include="Mapping\TabelaPrecoMap.cs" />
+    <Compile Include="Mapping\TelefoneMap.cs" />
+    <Compile Include="Mapping\TipoProdutoMap.cs" />
+    <Compile Include="Mapping\TransferenciaEstoqueMap.cs" />
+    <Compile Include="Mapping\UnidadeMap.cs" />
+    <Compile Include="Mapping\UnidadeMedidaMap.cs" />
+    <Compile Include="Mapping\UsuarioMap.cs" />
+    <Compile Include="Mapping\VendaProdutoMap.cs" />
+    <Compile Include="Mapping\VendaProdutoNFMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SisOpe.Domain\SisOpe.Domain.csproj">
+      <Project>{a24d8114-43cb-4a12-bfa2-a7ccb307da8d}</Project>
+      <Name>SisOpe.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

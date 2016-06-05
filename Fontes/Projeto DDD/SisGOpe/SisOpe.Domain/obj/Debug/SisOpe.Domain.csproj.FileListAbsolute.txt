@@ -1,0 +1,4 @@
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb
