@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentention", "0 - Presentention", "{96716DAB-A1B1-475E-A444-B22D34B7867C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C3C97D2B-C993-4141-89EE-72EA92FA3422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{6688C2A9-0266-4761-87A9-6963C2E70DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{FB014681-CEE0-40C7-BE72-A36F03F78292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{300EB6AE-A37E-4410-AB77-68E54739155A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCuting", "4.2 - CrossCuting", "{815BB2F0-40EA-42F8-B76E-923A9C7FAA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.MVC", "SisOpe.MVC\SisOpe.MVC.csproj", "{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Application", "SisOpe.Application\SisOpe.Application.csproj", "{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Domain", "SisOpe.Domain\SisOpe.Domain.csproj", "{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Context", "SisOpe.Data.Context\SisOpe.Data.Context.csproj", "{6EE479DE-3214-472D-8AE5-0610DF622D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Repository", "SisOpe.Data.Repository\SisOpe.Data.Repository.csproj", "{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE479DE-3214-472D-8AE5-0610DF622D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE479DE-3214-472D-8AE5-0610DF622D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE479DE-3214-472D-8AE5-0610DF622D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE479DE-3214-472D-8AE5-0610DF622D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300EB6AE-A37E-4410-AB77-68E54739155A} = {FB014681-CEE0-40C7-BE72-A36F03F78292}
+		{815BB2F0-40EA-42F8-B76E-923A9C7FAA32} = {FB014681-CEE0-40C7-BE72-A36F03F78292}
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D} = {96716DAB-A1B1-475E-A444-B22D34B7867C}
+		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF} = {C3C97D2B-C993-4141-89EE-72EA92FA3422}
+		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D} = {6688C2A9-0266-4761-87A9-6963C2E70DB9}
+		{6EE479DE-3214-472D-8AE5-0610DF622D66} = {300EB6AE-A37E-4410-AB77-68E54739155A}
+		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32} = {300EB6AE-A37E-4410-AB77-68E54739155A}
+	EndGlobalSection
+EndGlobal
