@@ -1,16 +1,13 @@
 ﻿using SisOpe.Domain.Entidades;
-using SisOpe.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SisOpe.Data.Repository.Repositories
+namespace SisOpe.Domain.Interfaces.Services
 {
-    public class AcessoRepository : RepositoryBase<Acesso>, IAcessoRepository
+    public interface IItemReservaVendaProdutoService : IServiceBase<ItemReservaVendaProduto>
     {
-
-
     }
 }
