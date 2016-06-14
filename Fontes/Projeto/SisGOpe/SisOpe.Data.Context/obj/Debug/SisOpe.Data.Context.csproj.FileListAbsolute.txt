@@ -22,3 +22,15 @@ C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacio
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.csprojResolveAssemblyReference.cache
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\SisOpe.Data.Context.dll.config
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\SisOpe.Data.Context.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\SisOpe.Data.Context.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\EntityFramework.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\EntityFramework.xml
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\obj\Debug\SisOpe.Data.Context.pdb
