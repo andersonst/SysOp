@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SisOpe.Domain.Interfaces.Sevices
+namespace SisOpe.Domain.Interfaces.Services
 {
     public interface IServiceBase<TEntity> where TEntity : class
     {
@@ -13,6 +14,8 @@ namespace SisOpe.Domain.Interfaces.Sevices
         IEnumerable<TEntity> GetAll();
         void Update(TEntity obj);
         void Remove(TEntity obj);
+        void ExecuteProcedure(string sql, params SqlParameter[] parameters);
+        List<TEntity> ExecuteToListProcedure(string sql, params SqlParameter[] parameters);
         void Dispose();
     }
 }

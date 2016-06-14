@@ -1,4 +1,5 @@
 ﻿using SisOpe.Domain.Interfaces.Repositories;
+using SisOpe.Domain.Interfaces.Services;
 using SisOpe.Domain.Interfaces.Sevices;
 using System;
 using System.Collections.Generic;
@@ -45,6 +46,17 @@ namespace SisOpe.Domain.Services
         public void Dispose()
         {
             _repository.Dispose();
+        }
+
+
+        public void ExecuteProcedure(string sql, params System.Data.SqlClient.SqlParameter[] parameters)
+        {
+            _repository.ExecuteProcedure(sql, parameters);
+        }
+
+        public List<TEntity> ExecuteToListProcedure(string sql, params System.Data.SqlClient.SqlParameter[] parameters)
+        {
+            return _repository.ExecuteToListProcedure(sql, parameters);
         }
     }
 }

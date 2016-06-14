@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SisOpe.Domain.Interfaces.Repositories;
 using SisOpe.Data.Contexto;
+using System.Data.SqlClient;
 
 namespace SisOpe.Data.Repository.Repositories
 {
@@ -40,9 +41,19 @@ namespace SisOpe.Data.Repository.Repositories
             db.SaveChanges();
         }
 
+        public void ExecuteProcedure(string sql, params SqlParameter[] parameters)
+        {
+            db.Database.ExecuteSqlCommand(sql, parameters);
+        }
+
+        public List<TEntity> ExecuteToListProcedure(string sql, params SqlParameter[] parameters)
+        {
+            return db.Database.SqlQuery<TEntity>(sql, parameters).ToList();
+        }
+
         public void Dispose()
         {
-            throw new NotImplementedException();
+            db.Dispose();
         }
     }
 }

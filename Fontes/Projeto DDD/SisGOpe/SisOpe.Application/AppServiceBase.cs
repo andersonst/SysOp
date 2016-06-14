@@ -1,4 +1,5 @@
 ﻿using SisOpe.Application.Interfaces;
+using SisOpe.Domain.Interfaces.Services;
 using SisOpe.Domain.Interfaces.Sevices;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,7 @@ namespace SisOpe.Application
 
         public TEntity GetById(int id)
         {
-           return  _serviceBase.GetById(id);
+            return _serviceBase.GetById(id);
         }
 
         public IEnumerable<TEntity> GetAll()

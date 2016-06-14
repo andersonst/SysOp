@@ -12,3 +12,17 @@ C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Data.Repo
 C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.dll
 C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Data.Repository.dll.config
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Data.Repository.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Data.Repository.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Data.Context.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Data.Context.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.pdb
