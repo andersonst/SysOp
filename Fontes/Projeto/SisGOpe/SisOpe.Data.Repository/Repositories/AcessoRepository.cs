@@ -11,5 +11,6 @@ namespace SisOpe.Data.Repository.Repositories
     public class AcessoRepository : RepositoryBase<Acesso>, IAcessoRepository
     {
 
+
     }
 }
