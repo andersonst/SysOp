@@ -1,0 +1,21 @@
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Domain\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Domain\obj\Debug\SisOpe.Domain.pdb

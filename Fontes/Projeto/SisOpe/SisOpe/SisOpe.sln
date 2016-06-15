@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.MVC", "..\..\..\..\..\..\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.MVC\SisOpe.MVC.csproj", "{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{72222F57-B3D7-4642-A8CC-57FE3D38CE71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{22DD5F52-CD2C-44E0-9F29-61091A872543}"
@@ -17,13 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCuting", "4.2 - CrossCuting", "{E98A4D30-E1D3-48BA-9DCB-1D5C39604C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Application", "..\..\..\..\..\..\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\SisOpe.Application.csproj", "{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.MVC", "SisOpe.MVC\SisOpe.MVC.csproj", "{324A1BCE-1F11-4C8F-95B8-2306CE587A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Domain", "..\..\..\..\..\..\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Domain\SisOpe.Domain.csproj", "{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Application", "SisOpe.Application\SisOpe.Application.csproj", "{9B4C43D4-E20A-4D57-954C-0B5D921F86FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Context", "..\..\..\..\..\..\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Data.Context\SisOpe.Data.Context.csproj", "{6EE479DE-3214-472D-8AE5-0610DF622D66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Domain", "SisOpe.Domain\SisOpe.Domain.csproj", "{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Repository", "..\..\..\..\..\..\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Data.Repository\SisOpe.Data.Repository.csproj", "{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Context", "SisOpe.Data.Context\SisOpe.Data.Context.csproj", "{6EE479DE-3214-472D-8AE5-0610DF622D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Repository", "SisOpe.Data.Repository\SisOpe.Data.Repository.csproj", "{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,9 +56,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D} = {72222F57-B3D7-4642-A8CC-57FE3D38CE71}
 		{746E2DBF-4597-4984-B097-3F30F3C47967} = {15C2DDEB-1267-45D7-B087-11BF9F2F94AA}
 		{E98A4D30-E1D3-48BA-9DCB-1D5C39604C73} = {15C2DDEB-1267-45D7-B087-11BF9F2F94AA}
+		{324A1BCE-1F11-4C8F-95B8-2306CE587A6D} = {72222F57-B3D7-4642-A8CC-57FE3D38CE71}
 		{9B4C43D4-E20A-4D57-954C-0B5D921F86FF} = {22DD5F52-CD2C-44E0-9F29-61091A872543}
 		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D} = {2CCE7630-9CC9-4F8D-B756-EFAF386ADB1C}
 		{6EE479DE-3214-472D-8AE5-0610DF622D66} = {746E2DBF-4597-4984-B097-3F30F3C47967}

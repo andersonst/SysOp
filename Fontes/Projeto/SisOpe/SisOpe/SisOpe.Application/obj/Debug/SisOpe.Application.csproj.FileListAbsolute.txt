@@ -1,0 +1,28 @@
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.dll
+C:\Users\Anderson\documents\visual studio 2013\Projects\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto DDD\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp-master_v2\SysOp-master\Fontes\Projeto\SisGOpe\SisOpe.Application\obj\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\bin\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\bin\Debug\SisOpe.Application.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\bin\Debug\SisOpe.Domain.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\obj\Debug\SisOpe.Application.csprojResolveAssemblyReference.cache
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\obj\Debug\SisOpe.Application.dll
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.Application\obj\Debug\SisOpe.Application.pdb
