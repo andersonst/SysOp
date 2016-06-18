@@ -15,7 +15,7 @@ namespace SisOpe.Application
         private readonly IVendaProdutoNFService _vendaProdutoNFService;
 
         public VendaProdutoNFAppService(IVendaProdutoNFService vendaProdutoNFService)
-            :base(vendaProdutoNFService) 
+            :base(vendaProdutoNFService)
         {
             _vendaProdutoNFService = vendaProdutoNFService;
         }

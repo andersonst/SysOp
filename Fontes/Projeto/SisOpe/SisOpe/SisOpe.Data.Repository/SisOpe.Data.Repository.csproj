@@ -77,7 +77,7 @@
     <Compile Include="Repositories\ItemSolicitacaoCompraCotacaoRepository.cs" />
     <Compile Include="Repositories\ItemSolicitacaoCompraRepository.cs" />
     <Compile Include="Repositories\ItemTransferenciaEstoqueRepository.cs" />
-    <Compile Include="Repositories\ItemVendaRepository.cs" />
+    <Compile Include="Repositories\ItemVendaEstoqueRepository.cs" />
     <Compile Include="Repositories\MarcaProdutoRepository.cs" />
     <Compile Include="Repositories\NotaFiscalRepository.cs" />
     <Compile Include="Repositories\OrdemServicoRepository.cs" />

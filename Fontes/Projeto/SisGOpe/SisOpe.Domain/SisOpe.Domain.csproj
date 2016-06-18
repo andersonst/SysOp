@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisOpe.Domain</RootNamespace>
+    <AssemblyName>SisOpe.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\Acesso.cs" />
+    <Compile Include="Entidades\AcessoUsuario.cs" />
+    <Compile Include="Entidades\ArquivosOrdemServico.cs" />
+    <Compile Include="Entidades\Contato_PJ.cs" />
+    <Compile Include="Entidades\Cotacao.cs" />
+    <Compile Include="Entidades\Departamento.cs" />
+    <Compile Include="Entidades\Email.cs" />
+    <Compile Include="Entidades\Endereco.cs" />
+    <Compile Include="Entidades\EntradaProduto.cs" />
+    <Compile Include="Entidades\EntradaProdutoNF.cs" />
+    <Compile Include="Entidades\EquipeOrdemServico.cs" />
+    <Compile Include="Entidades\Finalidade.cs" />
+    <Compile Include="Entidades\FormaPagamento.cs" />
+    <Compile Include="Entidades\FornecedorCotacao.cs" />
+    <Compile Include="Entidades\Funcionario.cs" />
+    <Compile Include="Entidades\HistoricoOrdemServico.cs" />
+    <Compile Include="Entidades\HistoricoStatusCotacao.cs" />
+    <Compile Include="Entidades\ItemEntradaEstoque.cs" />
+    <Compile Include="Entidades\ItemEstoque.cs" />
+    <Compile Include="Entidades\ItemPedidoCompraCotacao.cs" />
+    <Compile Include="Entidades\ItemPedidoCompra.cs" />
+    <Compile Include="Entidades\ItemProdutoNotaFiscal.cs" />
+    <Compile Include="Entidades\ItemReservaProduto.cs" />
+    <Compile Include="Entidades\ItemReservaVendaProduto.cs" />
+    <Compile Include="Entidades\ItemRetornoCotacao.cs" />
+    <Compile Include="Entidades\ItemSolicitacaoCompraCotacao.cs" />
+    <Compile Include="Entidades\ItemSolicitacaoCompra.cs" />
+    <Compile Include="Entidades\ItemTransferenciaEstoque.cs" />
+    <Compile Include="Entidades\ItemVendaEstoque.cs" />
+    <Compile Include="Entidades\MarcaProduto.cs" />
+    <Compile Include="Entidades\NotaFiscal.cs" />
+    <Compile Include="Entidades\OrdemServico.cs" />
+    <Compile Include="Entidades\PagamentoOrdemServico.cs" />
+    <Compile Include="Entidades\PagamentoPedidoCompra.cs" />
+    <Compile Include="Entidades\PagamentoRetornoCotacao.cs" />
+    <Compile Include="Entidades\PedidoCompra.cs" />
+    <Compile Include="Entidades\Pessoa.cs" />
+    <Compile Include="Entidades\PessoaFisica.cs" />
+    <Compile Include="Entidades\PessoaJuridica.cs" />
+    <Compile Include="Entidades\ProdutoCotacao.cs" />
+    <Compile Include="Entidades\Produto.cs" />
+    <Compile Include="Entidades\Profissao.cs" />
+    <Compile Include="Entidades\ProfissaoFuncionario.cs" />
+    <Compile Include="Entidades\Reserva.cs" />
+    <Compile Include="Entidades\SolicitacaoCompra.cs" />
+    <Compile Include="Entidades\SolicitacaoPedidoCompra.cs" />
+    <Compile Include="Entidades\StatusCotacao.cs" />
+    <Compile Include="Entidades\StatusOrdemServico.cs" />
+    <Compile Include="Entidades\TabelaPreco.cs" />
+    <Compile Include="Entidades\Telefone.cs" />
+    <Compile Include="Entidades\TipoProduto.cs" />
+    <Compile Include="Entidades\TransferenciaEstoque.cs" />
+    <Compile Include="Entidades\Unidade.cs" />
+    <Compile Include="Entidades\UnidadeMedida.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="Entidades\VendaProduto.cs" />
+    <Compile Include="Entidades\VendaProdutoNF.cs" />
+    <Compile Include="Interfaces\Repositories\IAcessoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IAcessoUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IArquivoOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IContato_PJRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IDepartamentoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEmailRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEnderecoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEntradaProdutoNFRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEntradaProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEquipeOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFinalidadeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFormaPagamentoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFornecedorCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFuncionarioRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IHistoricoOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IHistoricoStatusCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemEntradaEstoqueRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemEstoqueRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemPedidoCompraCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemPedidoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemProdutoNotaFiscalRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemReservaVendaProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemRetornoCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemSolicitacaoCompraCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemSolicitacaoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IItemTransferenciaEstoqueRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IMarcaProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\INotaFiscalRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPagamentoOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPagamentoPedidoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPagamentoRetornoCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPedidoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPessoaFisicaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPessoaJuridicaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPessoaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IProdutoCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IProfissaoFuncionarioRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IProfissaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\IItemVendaEstoqueRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IReservaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ISolicitacaoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ISolicitacaoPedidoCompraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IStatusCotacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IStatusOrdemServicoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITabelaPrecoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITelefoneRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITipoProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITransferenciaEstoqueRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUnidadeMedidaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUnidadeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IVendaProdutoNFRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IVendaProdutoRepository.cs" />
+    <Compile Include="Interfaces\Services\IAcessoService.cs" />
+    <Compile Include="Interfaces\Services\IAcessoUsuarioService.cs" />
+    <Compile Include="Interfaces\Services\IArquivoOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\IContato_PJService.cs" />
+    <Compile Include="Interfaces\Services\ICotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IDepartamentoService.cs" />
+    <Compile Include="Interfaces\Services\IEmailService.cs" />
+    <Compile Include="Interfaces\Services\IEnderecoService.cs" />
+    <Compile Include="Interfaces\Services\IEntradaProdutoNFService.cs" />
+    <Compile Include="Interfaces\Services\IEntradaProdutoService.cs" />
+    <Compile Include="Interfaces\Services\IEquipeOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\IFinalidadeService.cs" />
+    <Compile Include="Interfaces\Services\IFormaPagamentoService.cs" />
+    <Compile Include="Interfaces\Services\IFornecedorCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IFuncionarioService.cs" />
+    <Compile Include="Interfaces\Services\IHistoricoOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\IHistoricoStatusCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IItemEntradaEstoqueService.cs" />
+    <Compile Include="Interfaces\Services\IItemEstoqueService.cs" />
+    <Compile Include="Interfaces\Services\IItemPedidoCompraCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IItemPedidoCompraService.cs" />
+    <Compile Include="Interfaces\Services\IItemProdutoNotaFiscalService.cs" />
+    <Compile Include="Interfaces\Services\IItemReservaVendaProdutoService.cs" />
+    <Compile Include="Interfaces\Services\IItemRetornoCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IItemSolicitacaoCompraCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IItemSolicitacaoCompraService.cs" />
+    <Compile Include="Interfaces\Services\IItemTransferenciaEstoqueService.cs" />
+    <Compile Include="Interfaces\Services\IItemVendaEstoqueService.cs" />
+    <Compile Include="Interfaces\Services\IMarcaProdutoService.cs" />
+    <Compile Include="Interfaces\Services\INotaFiscalService.cs" />
+    <Compile Include="Interfaces\Services\IOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\IPagamentoOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\IPagamentoPedidoCompraService.cs" />
+    <Compile Include="Interfaces\Services\IPagamentoRetornoCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IPedidoCompraService.cs" />
+    <Compile Include="Interfaces\Services\IPessoaFisicaService.cs" />
+    <Compile Include="Interfaces\Services\IPessoaJuridicaService.cs" />
+    <Compile Include="Interfaces\Services\IPessoaService.cs" />
+    <Compile Include="Interfaces\Services\IProdutoCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IProdutoService.cs" />
+    <Compile Include="Interfaces\Services\IProfissaoFuncionarioService.cs" />
+    <Compile Include="Interfaces\Services\IProfissaoService.cs" />
+    <Compile Include="Interfaces\Services\IReservaService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\ISolicitacaoCompraService.cs" />
+    <Compile Include="Interfaces\Services\ISolicitacaoPedidoCompraService.cs" />
+    <Compile Include="Interfaces\Services\IStatusCotacaoService.cs" />
+    <Compile Include="Interfaces\Services\IStatusOrdemServicoService.cs" />
+    <Compile Include="Interfaces\Services\ITabelaPrecoService.cs" />
+    <Compile Include="Interfaces\Services\ITelefoneService.cs" />
+    <Compile Include="Interfaces\Services\ITipoProdutoService.cs" />
+    <Compile Include="Interfaces\Services\ITransferenciaEstoqueService.cs" />
+    <Compile Include="Interfaces\Services\IUnidadeMedidaService.cs" />
+    <Compile Include="Interfaces\Services\IUnidadeService.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
+    <Compile Include="Interfaces\Services\IVendaProdutoNFService.cs" />
+    <Compile Include="Interfaces\Services\IVendaProdutoService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AcessoService.cs" />
+    <Compile Include="Services\AcessoUsuarioService.cs" />
+    <Compile Include="Services\ArquivosOrdemServicoService.cs" />
+    <Compile Include="Services\Contato_PJService.cs" />
+    <Compile Include="Services\CotacaoService.cs" />
+    <Compile Include="Services\DepartamentoService.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\EnderecoService.cs" />
+    <Compile Include="Services\EntradaProdutoNFService.cs" />
+    <Compile Include="Services\EntradaProdutoService.cs" />
+    <Compile Include="Services\EquipeOrdemServicoService.cs" />
+    <Compile Include="Services\FinalidadeService.cs" />
+    <Compile Include="Services\FormaPagamentoService.cs" />
+    <Compile Include="Services\FornecedorCotacaoService.cs" />
+    <Compile Include="Services\FuncionarioService.cs" />
+    <Compile Include="Services\HistoricoOrdemServicoService.cs" />
+    <Compile Include="Services\HistoricoStatusCotacaoService.cs" />
+    <Compile Include="Services\ItemEntradaEstoqueService.cs" />
+    <Compile Include="Services\ItemEstoqueService.cs" />
+    <Compile Include="Services\ItemPedidoCompraCotacaoService.cs" />
+    <Compile Include="Services\ItemPedidoCompraService.cs" />
+    <Compile Include="Services\ItemProdutoNotaFiscalService.cs" />
+    <Compile Include="Services\ItemReservaVendaProdutoService.cs" />
+    <Compile Include="Services\ItemRetornoCotacaoService.cs" />
+    <Compile Include="Services\ItemSolicitacaoCompraCotacaoService.cs" />
+    <Compile Include="Services\ItemSolicitacaoCompraService.cs" />
+    <Compile Include="Services\ItemTransferenciaEstoqueService.cs" />
+    <Compile Include="Services\ItemVendaEstoqueService.cs" />
+    <Compile Include="Services\ItemVendaService.cs" />
+    <Compile Include="Services\MarcaProdutoService.cs" />
+    <Compile Include="Services\NotaFiscalService.cs" />
+    <Compile Include="Services\OrdemServicoService.cs" />
+    <Compile Include="Services\PagamentoOrdemServicoService.cs" />
+    <Compile Include="Services\PagamentoPedidoCompraService.cs" />
+    <Compile Include="Services\PagamentoRetornoCotacaoService.cs" />
+    <Compile Include="Services\PedidoCompraService.cs" />
+    <Compile Include="Services\PessoaFisicaService.cs" />
+    <Compile Include="Services\PessoaJuridicaService.cs" />
+    <Compile Include="Services\PessoaService.cs" />
+    <Compile Include="Services\ProdutoCotacaoService.cs" />
+    <Compile Include="Services\ProdutoService.cs" />
+    <Compile Include="Services\ProfissaoFuncionarioService.cs" />
+    <Compile Include="Services\ProfissaoService.cs" />
+    <Compile Include="Services\ReservaService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\SolicitacaoCompraService.cs" />
+    <Compile Include="Services\SolicitacaoPedidoCompraService.cs" />
+    <Compile Include="Services\StatusCotacaoService.cs" />
+    <Compile Include="Services\StatusOrdemServicoService.cs" />
+    <Compile Include="Services\TabelaPrecoService.cs" />
+    <Compile Include="Services\TelefoneService.cs" />
+    <Compile Include="Services\TipoProdutoService.cs" />
+    <Compile Include="Services\TransferenciaEstoqueService.cs" />
+    <Compile Include="Services\UnidadeMedidaService.cs" />
+    <Compile Include="Services\UnidadeService.cs" />
+    <Compile Include="Services\UsuarioService.cs" />
+    <Compile Include="Services\VendaProdutoNFService.cs" />
+    <Compile Include="Services\VendaProdutoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

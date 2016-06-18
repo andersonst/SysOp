@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Context", "SisO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.Data.Repository", "SisOpe.Data.Repository\SisOpe.Data.Repository.csproj", "{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisOpe.CrossCuting.IoC", "SisOpe.CrossCuting.IoC.MVC\SisOpe.CrossCuting.IoC.csproj", "{7B33B0A3-8898-44A7-925A-6335B2DDB4E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B33B0A3-8898-44A7-925A-6335B2DDB4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B33B0A3-8898-44A7-925A-6335B2DDB4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B33B0A3-8898-44A7-925A-6335B2DDB4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B33B0A3-8898-44A7-925A-6335B2DDB4E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +69,6 @@ Global
 		{A24D8114-43CB-4A12-BFA2-A7CCB307DA8D} = {2CCE7630-9CC9-4F8D-B756-EFAF386ADB1C}
 		{6EE479DE-3214-472D-8AE5-0610DF622D66} = {746E2DBF-4597-4984-B097-3F30F3C47967}
 		{B2A54A8D-56F1-4A88-8D7D-7B3DCE910B32} = {746E2DBF-4597-4984-B097-3F30F3C47967}
+		{7B33B0A3-8898-44A7-925A-6335B2DDB4E2} = {E98A4D30-E1D3-48BA-9DCB-1D5C39604C73}
 	EndGlobalSection
 EndGlobal

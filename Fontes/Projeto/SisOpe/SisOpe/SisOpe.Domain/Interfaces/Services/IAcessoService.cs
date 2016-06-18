@@ -1,5 +1,5 @@
 ﻿using SisOpe.Domain.Entidades;
-using SisOpe.Domain.Interfaces.Sevices;
+//using SisOpe.Domain.Interfaces.Sevices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

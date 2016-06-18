@@ -1,11 +1,6 @@
 ﻿using SisOpe.Application.Interfaces;
-using SisOpe.Application.Interfaces;
-using SisOpe.Domain.Interfaces.Sevices;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
 using SisOpe.Domain.Interfaces.Services;
 

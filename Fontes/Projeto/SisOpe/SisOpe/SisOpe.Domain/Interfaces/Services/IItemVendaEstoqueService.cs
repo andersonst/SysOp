@@ -6,7 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SisOpe.Domain.Interfaces.Sevices
+namespace SisOpe.Domain.Interfaces.Services
+
 {
     public interface IItemVendaEstoqueService : IServiceBase<ItemVendaEstoque>
     {
