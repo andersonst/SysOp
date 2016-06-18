@@ -1,4 +1,3 @@
-C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\obj\Debug\SisOpe.CrossCuting.IoC.csprojResolveAssemblyReference.cache
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\roslyn\csc.exe
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -79,5 +78,6 @@ C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacio
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\bin\SisOpe.Data.Context.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\obj\Debug\SisOpe.CrossCuting.IoC.csprojResolveAssemblyReference.cache
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\obj\Debug\SisOpe.CrossCuting.IoC.MVC.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.CrossCuting.IoC.MVC\obj\Debug\SisOpe.CrossCuting.IoC.MVC.pdb
