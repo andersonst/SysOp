@@ -1,11 +1,6 @@
 ﻿using SisOpe.Domain.Interfaces.Repositories;
 using SisOpe.Domain.Interfaces.Services;
-using SisOpe.Domain.Interfaces.Sevices;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SisOpe.Domain.Services
 {

@@ -329,6 +329,6 @@ C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacio
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\bin\ru\System.Spatial.resources.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\obj\Debug\SisOpe.MVC.csprojResolveAssemblyReference.cache
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\obj\Debug\SisOpe.MVC.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\obj\Debug\SisOpe.MVC.pdb
+C:\Users\Anderson\Documents\Visual Studio 2013\Projects\Projeto Gestão Operacional\SysOp\Fontes\Projeto\SisOpe\SisOpe\SisOpe.MVC\obj\Debug\SisOpe.MVC.csprojResolveAssemblyReference.cache

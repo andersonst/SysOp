@@ -22,6 +22,7 @@ namespace SisOpe.MVC
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            DependencyResolver.SetResolver(new SisOpe.CrossCuting.IoC.IoCDependencyResolver());
             AuthConfig.RegisterAuth();
         }
     }
