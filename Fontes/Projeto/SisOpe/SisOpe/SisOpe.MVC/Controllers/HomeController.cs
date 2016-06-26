@@ -25,6 +25,7 @@ namespace SisOpe.MVC.Controllers
            var lista =  _usuarioAppService.GetAll().ToList();
 
 
+
             return View();
 
             
