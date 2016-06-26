@@ -1,4 +1,6 @@
-﻿using Ninject;
+﻿using CommonServiceLocator.NinjectAdapter.Unofficial;
+using Microsoft.Practices.ServiceLocation;
+using Ninject;
 using SisOpe.CrossCuting.IoC.Modules;
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ namespace SisOpe.CrossCuting.IoC
         public IoC()
         {
             Kernel = GetNinjectModules();
-            //ServiceLocator.SetLocatorProvider(() => new NinjectServiceLocator(Kernel));
+            ServiceLocator.SetLocatorProvider(() => new NinjectServiceLocator(Kernel));
             //ServiceLocator.SetLocatorProvider(() => new NinjectServiceLocator(Kernel));
         }
 

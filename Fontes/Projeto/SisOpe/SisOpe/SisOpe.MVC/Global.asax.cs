@@ -23,7 +23,7 @@ namespace SisOpe.MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             DependencyResolver.SetResolver(new SisOpe.CrossCuting.IoC.IoCDependencyResolver());
-            AuthConfig.RegisterAuth();
+           // AuthConfig.RegisterAuth();
         }
     }
 }
