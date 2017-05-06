@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1431D9F-3CDB-4F9F-BEA5-64B79329798E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisOpe.Data.Context</RootNamespace>
+    <AssemblyName>SisOpe.Data.Context</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\acesso.cs" />
+    <Compile Include="Models\acessousuario.cs" />
+    <Compile Include="Models\arquivosordemservico.cs" />
+    <Compile Include="Models\banco.cs" />
+    <Compile Include="Models\cfop.cs" />
+    <Compile Include="Models\cliente.cs" />
+    <Compile Include="Models\contato.cs" />
+    <Compile Include="Models\contato_email.cs" />
+    <Compile Include="Models\contato_pj.cs" />
+    <Compile Include="Models\contato_telefone.cs" />
+    <Compile Include="Models\cotacao.cs" />
+    <Compile Include="Models\departamento.cs" />
+    <Compile Include="Models\ecf_caixa.cs" />
+    <Compile Include="Models\ecf_cheque_cliente.cs" />
+    <Compile Include="Models\ecf_configuracao.cs" />
+    <Compile Include="Models\ecf_contador.cs" />
+    <Compile Include="Models\ecf_dav_cabecalho.cs" />
+    <Compile Include="Models\ecf_dav_detalhe.cs" />
+    <Compile Include="Models\ecf_documentos_emitidos.cs" />
+    <Compile Include="Models\ecf_empresa.cs" />
+    <Compile Include="Models\ecf_funcionario.cs" />
+    <Compile Include="Models\ecf_impressora.cs" />
+    <Compile Include="Models\ecf_movimento.cs" />
+    <Compile Include="Models\ecf_operador.cs" />
+    <Compile Include="Models\ecf_posicao_componentes.cs" />
+    <Compile Include="Models\ecf_pre_venda_cabecalho.cs" />
+    <Compile Include="Models\ecf_pre_venda_detalhe.cs" />
+    <Compile Include="Models\ecf_recebimento_nao_fiscal.cs" />
+    <Compile Include="Models\ecf_resolucao.cs" />
+    <Compile Include="Models\ecf_sangria.cs" />
+    <Compile Include="Models\ecf_suprimento.cs" />
+    <Compile Include="Models\ecf_tipo_pagamento.cs" />
+    <Compile Include="Models\ecf_total_tipo_pgto.cs" />
+    <Compile Include="Models\ecf_tributo_produto.cs" />
+    <Compile Include="Models\ecf_turno.cs" />
+    <Compile Include="Models\ecf_venda_cabecalho.cs" />
+    <Compile Include="Models\ecf_venda_detalhe.cs" />
+    <Compile Include="Models\email.cs" />
+    <Compile Include="Models\endereco.cs" />
+    <Compile Include="Models\endereco_2.cs" />
+    <Compile Include="Models\entradaproduto.cs" />
+    <Compile Include="Models\entradaprodutonf.cs" />
+    <Compile Include="Models\equipeordemservico.cs" />
+    <Compile Include="Models\ficha_tecnica.cs" />
+    <Compile Include="Models\finalidade.cs" />
+    <Compile Include="Models\formapagamento.cs" />
+    <Compile Include="Models\fornecedorcotacao.cs" />
+    <Compile Include="Models\funcionario.cs" />
+    <Compile Include="Models\historicoordemservico.cs" />
+    <Compile Include="Models\historicostatuscotacao.cs" />
+    <Compile Include="Models\itementradaestoque.cs" />
+    <Compile Include="Models\itemestoque.cs" />
+    <Compile Include="Models\itempedidocompra.cs" />
+    <Compile Include="Models\itempedidocompracotacao.cs" />
+    <Compile Include="Models\itemprodutonotafiscal.cs" />
+    <Compile Include="Models\itemretornocotacao.cs" />
+    <Compile Include="Models\itemsolicitacaocompra.cs" />
+    <Compile Include="Models\itemsolicitacaocompracotacao.cs" />
+    <Compile Include="Models\itemtransferenciaestoque.cs" />
+    <Compile Include="Models\itemvendaestoque.cs" />
+    <Compile Include="Models\Mapping\acessoMap.cs" />
+    <Compile Include="Models\Mapping\acessousuarioMap.cs" />
+    <Compile Include="Models\Mapping\arquivosordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\bancoMap.cs" />
+    <Compile Include="Models\Mapping\cfopMap.cs" />
+    <Compile Include="Models\Mapping\clienteMap.cs" />
+    <Compile Include="Models\Mapping\contatoMap.cs" />
+    <Compile Include="Models\Mapping\contato_emailMap.cs" />
+    <Compile Include="Models\Mapping\contato_pjMap.cs" />
+    <Compile Include="Models\Mapping\contato_telefoneMap.cs" />
+    <Compile Include="Models\Mapping\cotacaoMap.cs" />
+    <Compile Include="Models\Mapping\departamentoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_caixaMap.cs" />
+    <Compile Include="Models\Mapping\ecf_cheque_clienteMap.cs" />
+    <Compile Include="Models\Mapping\ecf_configuracaoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_contadorMap.cs" />
+    <Compile Include="Models\Mapping\ecf_dav_cabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_dav_detalheMap.cs" />
+    <Compile Include="Models\Mapping\ecf_documentos_emitidosMap.cs" />
+    <Compile Include="Models\Mapping\ecf_empresaMap.cs" />
+    <Compile Include="Models\Mapping\ecf_funcionarioMap.cs" />
+    <Compile Include="Models\Mapping\ecf_impressoraMap.cs" />
+    <Compile Include="Models\Mapping\ecf_movimentoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_operadorMap.cs" />
+    <Compile Include="Models\Mapping\ecf_posicao_componentesMap.cs" />
+    <Compile Include="Models\Mapping\ecf_pre_venda_cabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_pre_venda_detalheMap.cs" />
+    <Compile Include="Models\Mapping\ecf_recebimento_nao_fiscalMap.cs" />
+    <Compile Include="Models\Mapping\ecf_resolucaoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_sangriaMap.cs" />
+    <Compile Include="Models\Mapping\ecf_suprimentoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_tipo_pagamentoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_total_tipo_pgtoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_tributo_produtoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_turnoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_venda_cabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\ecf_venda_detalheMap.cs" />
+    <Compile Include="Models\Mapping\emailMap.cs" />
+    <Compile Include="Models\Mapping\enderecoMap.cs" />
+    <Compile Include="Models\Mapping\endereco_2Map.cs" />
+    <Compile Include="Models\Mapping\entradaprodutoMap.cs" />
+    <Compile Include="Models\Mapping\entradaprodutonfMap.cs" />
+    <Compile Include="Models\Mapping\equipeordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\ficha_tecnicaMap.cs" />
+    <Compile Include="Models\Mapping\finalidadeMap.cs" />
+    <Compile Include="Models\Mapping\formapagamentoMap.cs" />
+    <Compile Include="Models\Mapping\fornecedorcotacaoMap.cs" />
+    <Compile Include="Models\Mapping\funcionarioMap.cs" />
+    <Compile Include="Models\Mapping\historicoordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\historicostatuscotacaoMap.cs" />
+    <Compile Include="Models\Mapping\itementradaestoqueMap.cs" />
+    <Compile Include="Models\Mapping\itemestoqueMap.cs" />
+    <Compile Include="Models\Mapping\itempedidocompracotacaoMap.cs" />
+    <Compile Include="Models\Mapping\itempedidocompraMap.cs" />
+    <Compile Include="Models\Mapping\itemprodutonotafiscalMap.cs" />
+    <Compile Include="Models\Mapping\itemretornocotacaoMap.cs" />
+    <Compile Include="Models\Mapping\itemsolicitacaocompracotacaoMap.cs" />
+    <Compile Include="Models\Mapping\itemsolicitacaocompraMap.cs" />
+    <Compile Include="Models\Mapping\itemtransferenciaestoqueMap.cs" />
+    <Compile Include="Models\Mapping\itemvendaestoqueMap.cs" />
+    <Compile Include="Models\Mapping\marcaprodutoMap.cs" />
+    <Compile Include="Models\Mapping\nf2_cabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\nf2_detalheMap.cs" />
+    <Compile Include="Models\Mapping\notafiscalMap.cs" />
+    <Compile Include="Models\Mapping\ordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\pagamentoordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\pagamentopedidocompraMap.cs" />
+    <Compile Include="Models\Mapping\pagamentoretornocotacaoMap.cs" />
+    <Compile Include="Models\Mapping\pedidocompraMap.cs" />
+    <Compile Include="Models\Mapping\pessoafisicaMap.cs" />
+    <Compile Include="Models\Mapping\pessoajuridicaMap.cs" />
+    <Compile Include="Models\Mapping\pessoaMap.cs" />
+    <Compile Include="Models\Mapping\produtocotacaoMap.cs" />
+    <Compile Include="Models\Mapping\produtoMap.cs" />
+    <Compile Include="Models\Mapping\produto_2Map.cs" />
+    <Compile Include="Models\Mapping\produto_promocaoMap.cs" />
+    <Compile Include="Models\Mapping\profissaofuncionarioMap.cs" />
+    <Compile Include="Models\Mapping\profissaoMap.cs" />
+    <Compile Include="Models\Mapping\r02Map.cs" />
+    <Compile Include="Models\Mapping\r03Map.cs" />
+    <Compile Include="Models\Mapping\r06Map.cs" />
+    <Compile Include="Models\Mapping\r07Map.cs" />
+    <Compile Include="Models\Mapping\reservaMap.cs" />
+    <Compile Include="Models\Mapping\sintegra_60aMap.cs" />
+    <Compile Include="Models\Mapping\sintegra_60mMap.cs" />
+    <Compile Include="Models\Mapping\situacao_cliMap.cs" />
+    <Compile Include="Models\Mapping\solicitacaocompraMap.cs" />
+    <Compile Include="Models\Mapping\solicitacaopedidocompraMap.cs" />
+    <Compile Include="Models\Mapping\statuscotacaoMap.cs" />
+    <Compile Include="Models\Mapping\statusordemservicoMap.cs" />
+    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
+    <Compile Include="Models\Mapping\tabelaprecoMap.cs" />
+    <Compile Include="Models\Mapping\telefoneMap.cs" />
+    <Compile Include="Models\Mapping\tipoprodutoMap.cs" />
+    <Compile Include="Models\Mapping\tipo_emailMap.cs" />
+    <Compile Include="Models\Mapping\tipo_telefoneMap.cs" />
+    <Compile Include="Models\Mapping\transferenciaestoqueMap.cs" />
+    <Compile Include="Models\Mapping\unidadeMap.cs" />
+    <Compile Include="Models\Mapping\unidademedidaMap.cs" />
+    <Compile Include="Models\Mapping\unidade_produtoMap.cs" />
+    <Compile Include="Models\Mapping\usuarioMap.cs" />
+    <Compile Include="Models\Mapping\vendaprodutoMap.cs" />
+    <Compile Include="Models\Mapping\vendaprodutonfMap.cs" />
+    <Compile Include="Models\marcaproduto.cs" />
+    <Compile Include="Models\nf2_cabecalho.cs" />
+    <Compile Include="Models\nf2_detalhe.cs" />
+    <Compile Include="Models\notafiscal.cs" />
+    <Compile Include="Models\ordemservico.cs" />
+    <Compile Include="Models\pagamentoordemservico.cs" />
+    <Compile Include="Models\pagamentopedidocompra.cs" />
+    <Compile Include="Models\pagamentoretornocotacao.cs" />
+    <Compile Include="Models\pedidocompra.cs" />
+    <Compile Include="Models\pessoa.cs" />
+    <Compile Include="Models\pessoafisica.cs" />
+    <Compile Include="Models\pessoajuridica.cs" />
+    <Compile Include="Models\produto.cs" />
+    <Compile Include="Models\produtocotacao.cs" />
+    <Compile Include="Models\produto_2.cs" />
+    <Compile Include="Models\produto_promocao.cs" />
+    <Compile Include="Models\profissao.cs" />
+    <Compile Include="Models\profissaofuncionario.cs" />
+    <Compile Include="Models\r02.cs" />
+    <Compile Include="Models\r03.cs" />
+    <Compile Include="Models\r06.cs" />
+    <Compile Include="Models\r07.cs" />
+    <Compile Include="Models\reserva.cs" />
+    <Compile Include="Models\sintegra_60a.cs" />
+    <Compile Include="Models\sintegra_60m.cs" />
+    <Compile Include="Models\situacao_cli.cs" />
+    <Compile Include="Models\solicitacaocompra.cs" />
+    <Compile Include="Models\solicitacaopedidocompra.cs" />
+    <Compile Include="Models\statuscotacao.cs" />
+    <Compile Include="Models\statusordemservico.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\sysopContext.cs" />
+    <Compile Include="Models\tabelapreco.cs" />
+    <Compile Include="Models\telefone.cs" />
+    <Compile Include="Models\tipoproduto.cs" />
+    <Compile Include="Models\tipo_email.cs" />
+    <Compile Include="Models\tipo_telefone.cs" />
+    <Compile Include="Models\transferenciaestoque.cs" />
+    <Compile Include="Models\unidade.cs" />
+    <Compile Include="Models\unidademedida.cs" />
+    <Compile Include="Models\unidade_produto.cs" />
+    <Compile Include="Models\usuario.cs" />
+    <Compile Include="Models\vendaproduto.cs" />
+    <Compile Include="Models\vendaprodutonf.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SisOpe.Domain\SisOpe.Domain.csproj">
+      <Project>{64241233-b9c2-4a81-b536-b918ad06c693}</Project>
+      <Name>SisOpe.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
