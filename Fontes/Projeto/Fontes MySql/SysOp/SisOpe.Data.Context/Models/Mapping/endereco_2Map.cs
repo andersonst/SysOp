@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class endereco_2Map : EntityTypeConfiguration<Endereco_2>
+    public class Endereco_2Map : EntityTypeConfiguration<Endereco_2>
     {
-        public endereco_2Map()
+        public Endereco_2Map()
         {
             // Primary Key
             this.HasKey(t => t.IdEndereco);

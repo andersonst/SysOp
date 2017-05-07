@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_tributo_produtoMap : EntityTypeConfiguration<Ecf_Tributo_Produto>
+    public class Ecf_Tributo_ProdutoMap : EntityTypeConfiguration<Ecf_Tributo_Produto>
     {
-        public ecf_tributo_produtoMap()
+        public Ecf_Tributo_ProdutoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

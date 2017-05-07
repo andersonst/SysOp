@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class cotacaoMap : EntityTypeConfiguration<Cotacao>
+    public class CotacaoMap : EntityTypeConfiguration<Cotacao>
     {
-        public cotacaoMap()
+        public CotacaoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdCotacao);

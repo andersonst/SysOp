@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class bancoMap : EntityTypeConfiguration<Banco>
+    public class BancoMap : EntityTypeConfiguration<Banco>
     {
-        public bancoMap()
+        public BancoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

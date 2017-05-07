@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class unidadeMap : EntityTypeConfiguration<Unidade>
+    public class UnidadeMap : EntityTypeConfiguration<Unidade>
     {
-        public unidadeMap()
+        public UnidadeMap()
         {
             // Primary Key
             this.HasKey(t => t.IdUnidade);

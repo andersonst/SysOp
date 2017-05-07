@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ficha_tecnicaMap : EntityTypeConfiguration<Ficha_Tecnica>
+    public class Ficha_TecnicaMap : EntityTypeConfiguration<Ficha_Tecnica>
     {
-        public ficha_tecnicaMap()
+        public Ficha_TecnicaMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

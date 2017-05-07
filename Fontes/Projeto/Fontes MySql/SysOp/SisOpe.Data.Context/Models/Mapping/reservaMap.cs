@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class reservaMap : EntityTypeConfiguration<Reserva>
+    public class ReservaMap : EntityTypeConfiguration<Reserva>
     {
-        public reservaMap()
+        public ReservaMap()
         {
             // Primary Key
             this.HasKey(t => t.IdReserva);

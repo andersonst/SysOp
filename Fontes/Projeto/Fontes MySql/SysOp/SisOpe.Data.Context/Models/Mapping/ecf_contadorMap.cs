@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_contadorMap : EntityTypeConfiguration<Ecf_Contador>
+    public class Ecf_ContadorMap : EntityTypeConfiguration<Ecf_Contador>
     {
-        public ecf_contadorMap()
+        public Ecf_ContadorMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

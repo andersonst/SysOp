@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class pessoafisicaMap : EntityTypeConfiguration<PessoaFisica>
+    public class PessoaFisicaMap : EntityTypeConfiguration<PessoaFisica>
     {
-        public pessoafisicaMap()
+        public PessoaFisicaMap()
         {
             // Primary Key
             this.HasKey(t => t.IdPessoaFisica);

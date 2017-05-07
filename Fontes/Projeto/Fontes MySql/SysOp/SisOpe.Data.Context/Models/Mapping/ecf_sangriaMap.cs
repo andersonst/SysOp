@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_sangriaMap : EntityTypeConfiguration<Ecf_Sangria>
+    public class Ecf_SangriaMap : EntityTypeConfiguration<Ecf_Sangria>
     {
-        public ecf_sangriaMap()
+        public Ecf_SangriaMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

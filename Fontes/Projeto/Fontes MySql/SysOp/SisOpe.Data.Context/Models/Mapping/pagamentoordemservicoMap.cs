@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class pagamentoordemservicoMap : EntityTypeConfiguration<PagamentoOrdemServico>
+    public class PagamentoOrdemServicoMap : EntityTypeConfiguration<PagamentoOrdemServico>
     {
-        public pagamentoordemservicoMap()
+        public PagamentoOrdemServicoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdPagamentoOrdemServico);

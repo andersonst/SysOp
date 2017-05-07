@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_dav_detalheMap : EntityTypeConfiguration<Ecf_Dav_Detalhe>
+    public class Ecf_Dav_DetalheMap : EntityTypeConfiguration<Ecf_Dav_Detalhe>
     {
-        public ecf_dav_detalheMap()
+        public Ecf_Dav_DetalheMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

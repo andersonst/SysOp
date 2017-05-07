@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class sintegra_60aMap : EntityTypeConfiguration<Sintegra_60a>
+    public class Sintegra_60aMap : EntityTypeConfiguration<Sintegra_60a>
     {
-        public sintegra_60aMap()
+        public Sintegra_60aMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

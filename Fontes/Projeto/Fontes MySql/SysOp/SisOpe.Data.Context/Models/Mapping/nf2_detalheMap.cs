@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class nf2_detalheMap : EntityTypeConfiguration<Nf2_Detalhe>
+    public class Nf2_DetalheMap : EntityTypeConfiguration<Nf2_Detalhe>
     {
-        public nf2_detalheMap()
+        public Nf2_DetalheMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

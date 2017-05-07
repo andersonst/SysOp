@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class equipeordemservicoMap : EntityTypeConfiguration<EquipeOrdemServico>
+    public class EquipeOrdemServicoMap : EntityTypeConfiguration<EquipeOrdemServico>
     {
-        public equipeordemservicoMap()
+        public EquipeOrdemServicoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdEquipeOrdemServico);

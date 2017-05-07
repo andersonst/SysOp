@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_movimentoMap : EntityTypeConfiguration<Ecf_Movimento>
+    public class Ecf_MovimentoMap : EntityTypeConfiguration<Ecf_Movimento>
     {
-        public ecf_movimentoMap()
+        public Ecf_MovimentoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

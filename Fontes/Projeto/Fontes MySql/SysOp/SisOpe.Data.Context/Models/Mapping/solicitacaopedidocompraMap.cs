@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class solicitacaopedidocompraMap : EntityTypeConfiguration<Solicitacaopedidocompra>
+    public class SolicitacaoPedidoCompraMap : EntityTypeConfiguration<Solicitacaopedidocompra>
     {
-        public solicitacaopedidocompraMap()
+        public SolicitacaoPedidoCompraMap()
         {
             // Primary Key
             this.HasKey(t => t.IdSolicitacaoPedidoCompra);

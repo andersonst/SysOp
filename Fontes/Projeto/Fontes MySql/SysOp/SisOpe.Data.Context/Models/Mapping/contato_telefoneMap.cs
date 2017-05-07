@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class contato_telefoneMap : EntityTypeConfiguration<Contato_Telefone>
+    public class Contato_TelefoneMap : EntityTypeConfiguration<Contato_Telefone>
     {
-        public contato_telefoneMap()
+        public Contato_TelefoneMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

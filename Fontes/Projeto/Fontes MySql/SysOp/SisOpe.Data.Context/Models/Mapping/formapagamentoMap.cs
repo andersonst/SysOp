@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class formapagamentoMap : EntityTypeConfiguration<FormaPagamento>
+    public class FormaPagamentoMap : EntityTypeConfiguration<FormaPagamento>
     {
-        public formapagamentoMap()
+        public FormaPagamentoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdFormaPagamento);

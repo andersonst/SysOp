@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class cfopMap : EntityTypeConfiguration<Cfop>
+    public class CfopMap : EntityTypeConfiguration<Cfop>
     {
-        public cfopMap()
+        public CfopMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_caixaMap : EntityTypeConfiguration<Ecf_Caixa>
+    public class Ecf_CaixaMap : EntityTypeConfiguration<Ecf_Caixa>
     {
-        public ecf_caixaMap()
+        public Ecf_CaixaMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

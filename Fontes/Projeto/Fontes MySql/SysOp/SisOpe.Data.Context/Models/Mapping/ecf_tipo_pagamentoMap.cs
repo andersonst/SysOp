@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_tipo_pagamentoMap : EntityTypeConfiguration<Ecf_Tipo_Pagamento>
+    public class Ecf_Tipo_PagamentoMap : EntityTypeConfiguration<Ecf_Tipo_Pagamento>
     {
-        public ecf_tipo_pagamentoMap()
+        public Ecf_Tipo_PagamentoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class departamentoMap : EntityTypeConfiguration<Departamento>
+    public class DepartamentoMap : EntityTypeConfiguration<Departamento>
     {
-        public departamentoMap()
+        public DepartamentoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdDepartamento);

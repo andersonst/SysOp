@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class usuarioMap : EntityTypeConfiguration<Usuario>
+    public class UsuarioMap : EntityTypeConfiguration<Usuario>
     {
-        public usuarioMap()
+        public UsuarioMap()
         {
             // Primary Key
             this.HasKey(t => t.IdUsuario);

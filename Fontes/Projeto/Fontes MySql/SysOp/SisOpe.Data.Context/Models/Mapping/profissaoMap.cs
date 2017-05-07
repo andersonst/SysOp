@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class profissaoMap : EntityTypeConfiguration<Profissao>
+    public class ProfissaoMap : EntityTypeConfiguration<Profissao>
     {
-        public profissaoMap()
+        public ProfissaoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdProfissoes);

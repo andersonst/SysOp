@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class itemestoqueMap : EntityTypeConfiguration<ItemEstoque>
+    public class ItemEstoqueMap : EntityTypeConfiguration<ItemEstoque>
     {
-        public itemestoqueMap()
+        public ItemEstoqueMap()
         {
             // Primary Key
             this.HasKey(t => t.IdItemEstoque);

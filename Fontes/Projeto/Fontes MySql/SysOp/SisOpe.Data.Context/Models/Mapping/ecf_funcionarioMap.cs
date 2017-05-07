@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_funcionarioMap : EntityTypeConfiguration<Ecf_Funcionario>
+    public class Ecf_FuncionarioMap : EntityTypeConfiguration<Ecf_Funcionario>
     {
-        public ecf_funcionarioMap()
+        public Ecf_FuncionarioMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

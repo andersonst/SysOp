@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_cheque_clienteMap : EntityTypeConfiguration<Ecf_Cheque_Cliente>
+    public class Ecf_Cheque_ClienteMap : EntityTypeConfiguration<Ecf_Cheque_Cliente>
     {
-        public ecf_cheque_clienteMap()
+        public Ecf_Cheque_ClienteMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

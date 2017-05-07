@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class situacao_cliMap : EntityTypeConfiguration<Situacao_cli>
+    public class Situacao_CliMap : EntityTypeConfiguration<Situacao_cli>
     {
-        public situacao_cliMap()
+        public Situacao_CliMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

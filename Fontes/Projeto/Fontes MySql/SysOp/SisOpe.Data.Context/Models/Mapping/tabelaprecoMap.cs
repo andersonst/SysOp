@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class tabelaprecoMap : EntityTypeConfiguration<Tabelapreco>
+    public class TabelaPrecoMap : EntityTypeConfiguration<Tabelapreco>
     {
-        public tabelaprecoMap()
+        public TabelaPrecoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdTabelaPreco);

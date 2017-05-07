@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_turnoMap : EntityTypeConfiguration<Ecf_Turno>
+    public class Ecf_TurnoMap : EntityTypeConfiguration<Ecf_Turno>
     {
-        public ecf_turnoMap()
+        public Ecf_TurnoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_recebimento_nao_fiscalMap : EntityTypeConfiguration<Ecf_Recebimento_Nao_Fiscal>
+    public class Ecf_Recebimento_Nao_FiscalMap : EntityTypeConfiguration<Ecf_Recebimento_Nao_Fiscal>
     {
-        public ecf_recebimento_nao_fiscalMap()
+        public Ecf_Recebimento_Nao_FiscalMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

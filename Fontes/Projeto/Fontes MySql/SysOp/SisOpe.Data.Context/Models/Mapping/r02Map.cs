@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class r02Map : EntityTypeConfiguration<R02>
+    public class R02Map : EntityTypeConfiguration<R02>
     {
-        public r02Map()
+        public R02Map()
         {
             // Primary Key
             this.HasKey(t => t.ID);

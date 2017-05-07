@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class finalidadeMap : EntityTypeConfiguration<Finalidade>
+    public class FinalidadeMap : EntityTypeConfiguration<Finalidade>
     {
-        public finalidadeMap()
+        public FinalidadeMap()
         {
             // Primary Key
             this.HasKey(t => t.IdFinalidade);

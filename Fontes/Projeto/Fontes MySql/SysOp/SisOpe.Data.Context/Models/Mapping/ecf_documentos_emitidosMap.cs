@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_documentos_emitidosMap : EntityTypeConfiguration<Ecf_Documentos_Emitidos>
+    public class Ecf_Documentos_EmitidosMap : EntityTypeConfiguration<Ecf_Documentos_Emitidos>
     {
-        public ecf_documentos_emitidosMap()
+        public Ecf_Documentos_EmitidosMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

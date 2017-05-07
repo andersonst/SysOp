@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_total_tipo_pgtoMap : EntityTypeConfiguration<Ecf_Total_Tipo_Pgto>
+    public class Ecf_Total_Tipo_PgtoMap : EntityTypeConfiguration<Ecf_Total_Tipo_Pgto>
     {
-        public ecf_total_tipo_pgtoMap()
+        public Ecf_Total_Tipo_PgtoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

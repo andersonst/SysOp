@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class transferenciaestoqueMap : EntityTypeConfiguration<TransferenciaEstoque>
+    public class TransferenciaEstoqueMap : EntityTypeConfiguration<TransferenciaEstoque>
     {
-        public transferenciaestoqueMap()
+        public TransferenciaEstoqueMap()
         {
             // Primary Key
             this.HasKey(t => t.IdTE);

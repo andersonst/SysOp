@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class emailMap : EntityTypeConfiguration<Email>
+    public class EmailMap : EntityTypeConfiguration<Email>
     {
-        public emailMap()
+        public EmailMap()
         {
             // Primary Key
             this.HasKey(t => t.IdEmail);

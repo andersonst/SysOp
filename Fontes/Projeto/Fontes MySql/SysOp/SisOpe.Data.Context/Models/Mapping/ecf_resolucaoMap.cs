@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_resolucaoMap : EntityTypeConfiguration<Ecf_Resolucao>
+    public class Ecf_ResolucaoMap : EntityTypeConfiguration<Ecf_Resolucao>
     {
-        public ecf_resolucaoMap()
+        public Ecf_ResolucaoMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

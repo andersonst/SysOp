@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_impressoraMap : EntityTypeConfiguration<Ecf_Impressora>
+    public class Ecf_ImpressoraMap : EntityTypeConfiguration<Ecf_Impressora>
     {
-        public ecf_impressoraMap()
+        public Ecf_ImpressoraMap()
         {
             // Primary Key
             this.HasKey(t => t.ID);

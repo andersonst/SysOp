@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class marcaprodutoMap : EntityTypeConfiguration<MarcaProduto>
+    public class MarcaProdutoMap : EntityTypeConfiguration<MarcaProduto>
     {
-        public marcaprodutoMap()
+        public MarcaProdutoMap()
         {
             // Primary Key
             this.HasKey(t => t.IdMarcaProduto);
