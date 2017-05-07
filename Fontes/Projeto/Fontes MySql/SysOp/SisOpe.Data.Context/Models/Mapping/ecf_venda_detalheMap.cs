@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_venda_detalheMap : EntityTypeConfiguration<ecf_venda_detalhe>
+    public class ecf_venda_detalheMap : EntityTypeConfiguration<Ecf_Venda_Detalhe>
     {
         public ecf_venda_detalheMap()
         {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_pre_venda_cabecalho
+    public partial class Ecf_Pre_Venda_Cabecalho
     {
-        public ecf_pre_venda_cabecalho()
+        public Ecf_Pre_Venda_Cabecalho()
         {
-            this.ecf_pre_venda_detalhe = new List<ecf_pre_venda_detalhe>();
-            this.ecf_venda_cabecalho = new List<ecf_venda_cabecalho>();
+            this.ecf_pre_venda_detalhe = new List<Ecf_Pre_Venda_Detalhe>();
+            this.ecf_venda_cabecalho = new List<Ecf_Venda_Cabecalho>();
         }
 
         public long ID { get; set; }
@@ -16,7 +16,7 @@ namespace SisOpe.Data.Context.Models
         public string SITUACAO { get; set; }
         public Nullable<long> CCF { get; set; }
         public Nullable<decimal> VALOR { get; set; }
-        public virtual ICollection<ecf_pre_venda_detalhe> ecf_pre_venda_detalhe { get; set; }
-        public virtual ICollection<ecf_venda_cabecalho> ecf_venda_cabecalho { get; set; }
+        public virtual ICollection<Ecf_Pre_Venda_Detalhe> ecf_pre_venda_detalhe { get; set; }
+        public virtual ICollection<Ecf_Venda_Cabecalho> ecf_venda_cabecalho { get; set; }
     }
 }

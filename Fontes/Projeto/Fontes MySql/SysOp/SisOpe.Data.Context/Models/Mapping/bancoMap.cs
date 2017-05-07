@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class bancoMap : EntityTypeConfiguration<banco>
+    public class bancoMap : EntityTypeConfiguration<Banco>
     {
         public bancoMap()
         {

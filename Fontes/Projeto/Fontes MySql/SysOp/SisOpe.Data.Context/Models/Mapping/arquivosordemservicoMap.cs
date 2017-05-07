@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class arquivosordemservicoMap : EntityTypeConfiguration<arquivosordemservico>
+    public class arquivosordemservicoMap : EntityTypeConfiguration<ArquivosOrdemServico>
     {
         public arquivosordemservicoMap()
         {

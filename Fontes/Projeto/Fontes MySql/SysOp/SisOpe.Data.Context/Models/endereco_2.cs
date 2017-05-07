@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class endereco_2
+    public partial class Endereco_2
     {
-        public endereco_2()
+        public Endereco_2()
         {
-            this.vendaprodutoes = new List<vendaproduto>();
+            this.vendaprodutoes = new List<VendaProduto>();
         }
 
         public int IdEndereco { get; set; }
@@ -19,7 +19,7 @@ namespace SisOpe.Data.Context.Models
         public string PontoReferencia { get; set; }
         public Nullable<bool> Primario { get; set; }
         public Nullable<long> IdPessoa { get; set; }
-        public virtual pessoa pessoa { get; set; }
-        public virtual ICollection<vendaproduto> vendaprodutoes { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual ICollection<VendaProduto> vendaprodutoes { get; set; }
     }
 }

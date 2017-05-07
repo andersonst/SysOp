@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class tipo_email
+    public partial class Tipo_Email
     {
-        public tipo_email()
+        public Tipo_Email()
         {
-            this.contato_email = new List<contato_email>();
+            this.contato_email = new List<Contato_email>();
         }
 
         public long ID { get; set; }
         public string NOME { get; set; }
         public string DESCRICAO { get; set; }
-        public virtual ICollection<contato_email> contato_email { get; set; }
+        public virtual ICollection<Contato_email> contato_email { get; set; }
     }
 }

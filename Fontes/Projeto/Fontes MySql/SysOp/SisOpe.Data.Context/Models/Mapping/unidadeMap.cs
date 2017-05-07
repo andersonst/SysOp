@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class unidadeMap : EntityTypeConfiguration<unidade>
+    public class unidadeMap : EntityTypeConfiguration<Unidade>
     {
         public unidadeMap()
         {

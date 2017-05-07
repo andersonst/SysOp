@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class clienteMap : EntityTypeConfiguration<cliente>
+    public class clienteMap : EntityTypeConfiguration<Cliente>
     {
         public clienteMap()
         {

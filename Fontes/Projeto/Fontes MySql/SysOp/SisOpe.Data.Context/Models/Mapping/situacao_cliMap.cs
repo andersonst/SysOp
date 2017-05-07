@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class situacao_cliMap : EntityTypeConfiguration<situacao_cli>
+    public class situacao_cliMap : EntityTypeConfiguration<Situacao_cli>
     {
         public situacao_cliMap()
         {

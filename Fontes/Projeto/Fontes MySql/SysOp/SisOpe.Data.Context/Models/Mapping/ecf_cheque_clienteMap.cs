@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_cheque_clienteMap : EntityTypeConfiguration<ecf_cheque_cliente>
+    public class ecf_cheque_clienteMap : EntityTypeConfiguration<Ecf_Cheque_Cliente>
     {
         public ecf_cheque_clienteMap()
         {

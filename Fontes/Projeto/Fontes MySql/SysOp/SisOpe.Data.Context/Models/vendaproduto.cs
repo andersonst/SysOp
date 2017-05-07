@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class vendaproduto
+    public partial class VendaProduto
     {
-        public vendaproduto()
+        public VendaProduto()
         {
-            this.itemvendaestoques = new List<itemvendaestoque>();
+            this.itemvendaestoques = new List<ItemVendaEstoque>();
         }
 
         public int IdVendaProduto { get; set; }
@@ -17,8 +17,8 @@ namespace SisOpe.Data.Context.Models
         public Nullable<int> IdEndereco { get; set; }
         public Nullable<int> IdUnidade { get; set; }
         public Nullable<int> CodigoVenda { get; set; }
-        public virtual endereco_2 endereco_2 { get; set; }
-        public virtual ICollection<itemvendaestoque> itemvendaestoques { get; set; }
-        public virtual unidade unidade { get; set; }
+        public virtual Endereco_2 endereco_2 { get; set; }
+        public virtual ICollection<ItemVendaEstoque> itemvendaestoques { get; set; }
+        public virtual Unidade unidade { get; set; }
     }
 }

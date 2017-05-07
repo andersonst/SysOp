@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class notafiscal
+    public partial class NotaFiscal
     {
-        public notafiscal()
+        public NotaFiscal()
         {
-            this.entradaprodutonfs = new List<entradaprodutonf>();
-            this.itemprodutonotafiscals = new List<itemprodutonotafiscal>();
+            this.entradaprodutonfs = new List<EntradaProdutoNF>();
+            this.itemprodutonotafiscals = new List<ItemProdutoNotaFiscal>();
         }
 
         public int IdNotaFiscal { get; set; }
@@ -19,7 +19,7 @@ namespace SisOpe.Data.Context.Models
         public string ChaveAcesso { get; set; }
         public string PalavrasChave { get; set; }
         public string Observacoes { get; set; }
-        public virtual ICollection<entradaprodutonf> entradaprodutonfs { get; set; }
-        public virtual ICollection<itemprodutonotafiscal> itemprodutonotafiscals { get; set; }
+        public virtual ICollection<EntradaProdutoNF> entradaprodutonfs { get; set; }
+        public virtual ICollection<ItemProdutoNotaFiscal> itemprodutonotafiscals { get; set; }
     }
 }

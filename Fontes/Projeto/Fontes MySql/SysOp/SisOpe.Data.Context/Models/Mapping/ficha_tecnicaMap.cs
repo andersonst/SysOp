@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ficha_tecnicaMap : EntityTypeConfiguration<ficha_tecnica>
+    public class ficha_tecnicaMap : EntityTypeConfiguration<Ficha_Tecnica>
     {
         public ficha_tecnicaMap()
         {

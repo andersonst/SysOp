@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class formapagamento
+    public partial class FormaPagamento
     {
-        public formapagamento()
+        public FormaPagamento()
         {
-            this.pagamentoretornocotacaos = new List<pagamentoretornocotacao>();
+            this.pagamentoretornocotacaos = new List<PagamentoRetornoCotacao>();
         }
 
         public int IdFormaPagamento { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<pagamentoretornocotacao> pagamentoretornocotacaos { get; set; }
+        public virtual ICollection<PagamentoRetornoCotacao> pagamentoretornocotacaos { get; set; }
     }
 }

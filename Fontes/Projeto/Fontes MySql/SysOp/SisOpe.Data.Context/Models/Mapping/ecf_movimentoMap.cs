@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_movimentoMap : EntityTypeConfiguration<ecf_movimento>
+    public class ecf_movimentoMap : EntityTypeConfiguration<Ecf_Movimento>
     {
         public ecf_movimentoMap()
         {

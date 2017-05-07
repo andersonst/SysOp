@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class banco
+    public partial class Banco
     {
-        public banco()
+        public Banco()
         {
-            this.ecf_cheque_cliente = new List<ecf_cheque_cliente>();
+            this.ecf_cheque_cliente = new List<Ecf_Cheque_Cliente>();
         }
 
         public long ID { get; set; }
         public Nullable<long> CODIGO { get; set; }
         public string NOME { get; set; }
         public string URL { get; set; }
-        public virtual ICollection<ecf_cheque_cliente> ecf_cheque_cliente { get; set; }
+        public virtual ICollection<Ecf_Cheque_Cliente> ecf_cheque_cliente { get; set; }
     }
 }

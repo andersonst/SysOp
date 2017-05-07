@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class nf2_cabecalhoMap : EntityTypeConfiguration<nf2_cabecalho>
+    public class nf2_cabecalhoMap : EntityTypeConfiguration<Nf2_Cabecalho>
     {
         public nf2_cabecalhoMap()
         {

@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_turno
+    public partial class Ecf_Turno
     {
-        public ecf_turno()
+        public Ecf_Turno()
         {
-            this.ecf_movimento = new List<ecf_movimento>();
+            this.ecf_movimento = new List<Ecf_Movimento>();
         }
 
         public long ID { get; set; }
         public string DESCRICAO { get; set; }
         public string HORA_INICIO { get; set; }
         public string HORA_FIM { get; set; }
-        public virtual ICollection<ecf_movimento> ecf_movimento { get; set; }
+        public virtual ICollection<Ecf_Movimento> ecf_movimento { get; set; }
     }
 }

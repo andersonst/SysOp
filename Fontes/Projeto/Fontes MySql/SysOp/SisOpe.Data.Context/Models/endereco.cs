@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class endereco
+    public partial class Endereco
     {
         public long ID { get; set; }
         public long ID_PESSOA { get; set; }
@@ -12,6 +12,6 @@ namespace SisOpe.Data.Context.Models
         public string COMPLEMENTO { get; set; }
         public string BAIRRO { get; set; }
         public string CEP { get; set; }
-        public virtual pessoa pessoa { get; set; }
+        public virtual Pessoa pessoa { get; set; }
     }
 }

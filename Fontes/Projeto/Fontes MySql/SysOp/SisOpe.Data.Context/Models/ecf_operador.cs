@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_operador
+    public partial class Ecf_Operador
     {
-        public ecf_operador()
+        public Ecf_Operador()
         {
-            this.ecf_movimento = new List<ecf_movimento>();
+            this.ecf_movimento = new List<Ecf_Movimento>();
         }
 
         public long ID { get; set; }
         public long ID_ECF_FUNCIONARIO { get; set; }
         public string LOGIN { get; set; }
         public string SENHA { get; set; }
-        public virtual ICollection<ecf_movimento> ecf_movimento { get; set; }
-        public virtual pessoa pessoa { get; set; }
+        public virtual ICollection<Ecf_Movimento> ecf_movimento { get; set; }
+        public virtual Pessoa pessoa { get; set; }
     }
 }

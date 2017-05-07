@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_cheque_cliente
+    public partial class Ecf_Cheque_Cliente
     {
         public long ID { get; set; }
         public long ID_BANCO { get; set; }
@@ -12,7 +12,7 @@ namespace SisOpe.Data.Context.Models
         public Nullable<System.DateTime> DATA_CHEQUE { get; set; }
         public Nullable<decimal> VALOR_CHEQUE { get; set; }
         public string OBSERVACOES { get; set; }
-        public virtual banco banco { get; set; }
-        public virtual pessoa pessoa { get; set; }
+        public virtual Banco banco { get; set; }
+        public virtual Pessoa pessoa { get; set; }
     }
 }

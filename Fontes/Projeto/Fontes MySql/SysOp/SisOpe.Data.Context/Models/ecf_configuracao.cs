@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_configuracao
+    public partial class Ecf_Configuracao
     {
         public long ID { get; set; }
         public Nullable<int> ID_ECF_IMPRESSORA { get; set; }
@@ -35,8 +35,8 @@ namespace SisOpe.Data.Context.Models
         public Nullable<int> TEF_NUMERO_VIAS { get; set; }
         public Nullable<int> INDICE_GERENCIAL_DAV { get; set; }
         public string SINCRONIZADO { get; set; }
-        public virtual ecf_caixa ecf_caixa { get; set; }
-        public virtual ecf_empresa ecf_empresa { get; set; }
-        public virtual ecf_resolucao ecf_resolucao { get; set; }
+        public virtual Ecf_Caixa ecf_caixa { get; set; }
+        public virtual Ecf_Empresa ecf_empresa { get; set; }
+        public virtual Ecf_Resolucao ecf_resolucao { get; set; }
     }
 }

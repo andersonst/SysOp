@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_venda_cabecalho
+    public partial class Ecf_Venda_Cabecalho
     {
-        public ecf_venda_cabecalho()
+        public Ecf_Venda_Cabecalho()
         {
-            this.ecf_total_tipo_pgto = new List<ecf_total_tipo_pgto>();
-            this.ecf_venda_detalhe = new List<ecf_venda_detalhe>();
+            this.ecf_total_tipo_pgto = new List<Ecf_Total_Tipo_Pgto>();
+            this.ecf_venda_detalhe = new List<Ecf_Venda_Detalhe>();
         }
 
         public long ID { get; set; }
@@ -44,13 +44,13 @@ namespace SisOpe.Data.Context.Models
         public string STATUS_VENDA { get; set; }
         public string NOME_CLIENTE { get; set; }
         public string CPF_CNPJ_CLIENTE { get; set; }
-        public virtual cfop cfop { get; set; }
-        public virtual ecf_dav_cabecalho ecf_dav_cabecalho { get; set; }
-        public virtual ecf_movimento ecf_movimento { get; set; }
-        public virtual ecf_pre_venda_cabecalho ecf_pre_venda_cabecalho { get; set; }
-        public virtual ICollection<ecf_total_tipo_pgto> ecf_total_tipo_pgto { get; set; }
-        public virtual pessoa pessoa { get; set; }
-        public virtual pessoa pessoa1 { get; set; }
-        public virtual ICollection<ecf_venda_detalhe> ecf_venda_detalhe { get; set; }
+        public virtual Cfop cfop { get; set; }
+        public virtual Ecf_Dav_Cabecalho ecf_dav_cabecalho { get; set; }
+        public virtual Ecf_Movimento ecf_movimento { get; set; }
+        public virtual Ecf_Pre_Venda_Cabecalho ecf_pre_venda_cabecalho { get; set; }
+        public virtual ICollection<Ecf_Total_Tipo_Pgto> ecf_total_tipo_pgto { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual Pessoa pessoa1 { get; set; }
+        public virtual ICollection<Ecf_Venda_Detalhe> ecf_venda_detalhe { get; set; }
     }
 }

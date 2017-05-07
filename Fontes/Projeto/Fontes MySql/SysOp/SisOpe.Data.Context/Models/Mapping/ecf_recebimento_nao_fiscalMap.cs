@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_recebimento_nao_fiscalMap : EntityTypeConfiguration<ecf_recebimento_nao_fiscal>
+    public class ecf_recebimento_nao_fiscalMap : EntityTypeConfiguration<Ecf_Recebimento_Nao_Fiscal>
     {
         public ecf_recebimento_nao_fiscalMap()
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class pessoafisica
+    public partial class PessoaFisica
     {
         public int IdPessoaFisica { get; set; }
         public string CPF { get; set; }
@@ -11,6 +11,6 @@ namespace SisOpe.Data.Context.Models
         public Nullable<System.DateTime> DataNascimento { get; set; }
         public string Sexo { get; set; }
         public Nullable<long> IdPessoa { get; set; }
-        public virtual pessoa pessoa { get; set; }
+        public virtual Pessoa pessoa { get; set; }
     }
 }

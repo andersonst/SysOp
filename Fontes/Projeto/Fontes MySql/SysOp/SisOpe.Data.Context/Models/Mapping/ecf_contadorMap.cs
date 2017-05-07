@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_contadorMap : EntityTypeConfiguration<ecf_contador>
+    public class ecf_contadorMap : EntityTypeConfiguration<Ecf_Contador>
     {
         public ecf_contadorMap()
         {

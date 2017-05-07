@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class contato_pjMap : EntityTypeConfiguration<contato_pj>
+    public class contato_pjMap : EntityTypeConfiguration<Contato_PJ>
     {
         public contato_pjMap()
         {

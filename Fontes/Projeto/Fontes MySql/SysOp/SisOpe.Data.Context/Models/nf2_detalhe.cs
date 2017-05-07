@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class nf2_detalhe
+    public partial class Nf2_Detalhe
     {
         public long ID { get; set; }
         public long ID_CFOP { get; set; }
@@ -33,9 +33,9 @@ namespace SisOpe.Data.Context.Models
         public Nullable<decimal> IPI { get; set; }
         public string CANCELADO { get; set; }
         public string MOVIMENTA_ESTOQUE { get; set; }
-        public virtual cfop cfop { get; set; }
-        public virtual ecf_tributo_produto ecf_tributo_produto { get; set; }
-        public virtual nf2_cabecalho nf2_cabecalho { get; set; }
-        public virtual produto produto { get; set; }
+        public virtual Cfop cfop { get; set; }
+        public virtual Ecf_Tributo_Produto ecf_tributo_produto { get; set; }
+        public virtual Nf2_Cabecalho nf2_cabecalho { get; set; }
+        public virtual Produto produto { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_funcionario
+    public partial class Ecf_Funcionario
     {
         public long ID { get; set; }
         public string NOME { get; set; }

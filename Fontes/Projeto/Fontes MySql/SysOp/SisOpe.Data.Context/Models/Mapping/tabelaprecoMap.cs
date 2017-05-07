@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class tabelaprecoMap : EntityTypeConfiguration<tabelapreco>
+    public class tabelaprecoMap : EntityTypeConfiguration<Tabelapreco>
     {
         public tabelaprecoMap()
         {

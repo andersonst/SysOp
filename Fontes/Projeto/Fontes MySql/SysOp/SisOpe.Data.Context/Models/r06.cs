@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class r06
+    public partial class R06
     {
-        public r06()
+        public R06()
         {
-            this.r07 = new List<r07>();
+            this.r07 = new List<R07>();
         }
 
         public long ID { get; set; }
@@ -22,7 +22,7 @@ namespace SisOpe.Data.Context.Models
         public Nullable<System.DateTime> DATA_EMISSAO { get; set; }
         public string HORA_EMISSAO { get; set; }
         public string SINCRONIZADO { get; set; }
-        public virtual ecf_caixa ecf_caixa { get; set; }
-        public virtual ICollection<r07> r07 { get; set; }
+        public virtual Ecf_Caixa ecf_caixa { get; set; }
+        public virtual ICollection<R07> r07 { get; set; }
     }
 }

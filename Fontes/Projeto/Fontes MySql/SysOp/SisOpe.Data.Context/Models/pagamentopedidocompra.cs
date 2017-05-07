@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class pagamentopedidocompra
+    public partial class PagamentoPedidoCompra
     {
         public int IdPagamentoPedidoCompra { get; set; }
         public Nullable<int> IdPedidoCompra { get; set; }
@@ -15,6 +15,6 @@ namespace SisOpe.Data.Context.Models
         public Nullable<decimal> ValorPago { get; set; }
         public Nullable<System.DateTime> DataPagamento { get; set; }
         public string Status { get; set; }
-        public virtual pedidocompra pedidocompra { get; set; }
+        public virtual PedidoCompra pedidocompra { get; set; }
     }
 }

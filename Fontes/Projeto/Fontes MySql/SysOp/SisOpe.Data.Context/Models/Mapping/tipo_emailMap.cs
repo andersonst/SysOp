@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class tipo_emailMap : EntityTypeConfiguration<tipo_email>
+    public class tipo_emailMap : EntityTypeConfiguration<Tipo_Email>
     {
         public tipo_emailMap()
         {

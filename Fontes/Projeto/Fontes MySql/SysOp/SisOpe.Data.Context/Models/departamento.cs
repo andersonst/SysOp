@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class departamento
+    public partial class Departamento
     {
-        public departamento()
+        public Departamento()
         {
-            this.produtocotacaos = new List<produtocotacao>();
+            this.produtocotacaos = new List<ProdutocCotacao>();
         }
 
         public int IdDepartamento { get; set; }
         public string Descricao { get; set; }
         public string Status { get; set; }
-        public virtual ICollection<produtocotacao> produtocotacaos { get; set; }
+        public virtual ICollection<ProdutocCotacao> produtocotacaos { get; set; }
     }
 }

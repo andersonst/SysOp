@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_movimento
+    public partial class Ecf_Movimento
     {
-        public ecf_movimento()
+        public Ecf_Movimento()
         {
-            this.ecf_documentos_emitidos = new List<ecf_documentos_emitidos>();
-            this.ecf_recebimento_nao_fiscal = new List<ecf_recebimento_nao_fiscal>();
-            this.ecf_sangria = new List<ecf_sangria>();
-            this.ecf_suprimento = new List<ecf_suprimento>();
-            this.ecf_venda_cabecalho = new List<ecf_venda_cabecalho>();
+            this.ecf_documentos_emitidos = new List<Ecf_Documentos_Emitidos>();
+            this.ecf_recebimento_nao_fiscal = new List<Ecf_Recebimento_Nao_Fiscal>();
+            this.ecf_sangria = new List<Ecf_Sangria>();
+            this.ecf_suprimento = new List<Ecf_Suprimento>();
+            this.ecf_venda_cabecalho = new List<Ecf_Venda_Cabecalho>();
         }
 
         public long ID { get; set; }
@@ -34,14 +34,14 @@ namespace SisOpe.Data.Context.Models
         public Nullable<decimal> TOTAL_CANCELADO { get; set; }
         public string STATUS_MOVIMENTO { get; set; }
         public string SINCRONIZADO { get; set; }
-        public virtual ecf_caixa ecf_caixa { get; set; }
-        public virtual ICollection<ecf_documentos_emitidos> ecf_documentos_emitidos { get; set; }
-        public virtual ecf_impressora ecf_impressora { get; set; }
-        public virtual ecf_operador ecf_operador { get; set; }
-        public virtual ecf_turno ecf_turno { get; set; }
-        public virtual ICollection<ecf_recebimento_nao_fiscal> ecf_recebimento_nao_fiscal { get; set; }
-        public virtual ICollection<ecf_sangria> ecf_sangria { get; set; }
-        public virtual ICollection<ecf_suprimento> ecf_suprimento { get; set; }
-        public virtual ICollection<ecf_venda_cabecalho> ecf_venda_cabecalho { get; set; }
+        public virtual Ecf_Caixa ecf_caixa { get; set; }
+        public virtual ICollection<Ecf_Documentos_Emitidos> ecf_documentos_emitidos { get; set; }
+        public virtual Ecf_Impressora ecf_impressora { get; set; }
+        public virtual Ecf_Operador ecf_operador { get; set; }
+        public virtual Ecf_Turno ecf_turno { get; set; }
+        public virtual ICollection<Ecf_Recebimento_Nao_Fiscal> ecf_recebimento_nao_fiscal { get; set; }
+        public virtual ICollection<Ecf_Sangria> ecf_sangria { get; set; }
+        public virtual ICollection<Ecf_Suprimento> ecf_suprimento { get; set; }
+        public virtual ICollection<Ecf_Venda_Cabecalho> ecf_venda_cabecalho { get; set; }
     }
 }

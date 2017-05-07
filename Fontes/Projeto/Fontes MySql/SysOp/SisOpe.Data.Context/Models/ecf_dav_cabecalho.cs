@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_dav_cabecalho
+    public partial class Ecf_Dav_Cabecalho
     {
-        public ecf_dav_cabecalho()
+        public Ecf_Dav_Cabecalho()
         {
-            this.ecf_dav_detalhe = new List<ecf_dav_detalhe>();
-            this.ecf_venda_cabecalho = new List<ecf_venda_cabecalho>();
+            this.ecf_dav_detalhe = new List<Ecf_Dav_Detalhe>();
+            this.ecf_venda_cabecalho = new List<Ecf_Venda_Cabecalho>();
         }
 
         public long ID { get; set; }
@@ -19,7 +19,7 @@ namespace SisOpe.Data.Context.Models
         public Nullable<System.DateTime> DATA_HORA_EMISSAO { get; set; }
         public string SITUACAO { get; set; }
         public Nullable<decimal> VALOR { get; set; }
-        public virtual ICollection<ecf_dav_detalhe> ecf_dav_detalhe { get; set; }
-        public virtual ICollection<ecf_venda_cabecalho> ecf_venda_cabecalho { get; set; }
+        public virtual ICollection<Ecf_Dav_Detalhe> ecf_dav_detalhe { get; set; }
+        public virtual ICollection<Ecf_Venda_Cabecalho> ecf_venda_cabecalho { get; set; }
     }
 }

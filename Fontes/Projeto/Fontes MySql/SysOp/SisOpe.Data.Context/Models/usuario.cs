@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class usuario
+    public partial class Usuario
     {
-        public usuario()
+        public Usuario()
         {
-            this.acessousuarios = new List<acessousuario>();
-            this.historicostatuscotacaos = new List<historicostatuscotacao>();
-            this.reservas = new List<reserva>();
+            this.acessousuarios = new List<AcessoUsuario>();
+            this.historicostatuscotacaos = new List<HistoricoStatusCotacao>();
+            this.reservas = new List<Reserva>();
         }
 
         public int IdUsuario { get; set; }
@@ -17,9 +17,9 @@ namespace SisOpe.Data.Context.Models
         public string Login { get; set; }
         public string Senha { get; set; }
         public Nullable<bool> Status { get; set; }
-        public virtual ICollection<acessousuario> acessousuarios { get; set; }
-        public virtual ICollection<historicostatuscotacao> historicostatuscotacaos { get; set; }
-        public virtual pessoa pessoa { get; set; }
-        public virtual ICollection<reserva> reservas { get; set; }
+        public virtual ICollection<AcessoUsuario> acessousuarios { get; set; }
+        public virtual ICollection<HistoricoStatusCotacao> historicostatuscotacaos { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual ICollection<Reserva> reservas { get; set; }
     }
 }

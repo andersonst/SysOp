@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class endereco_2Map : EntityTypeConfiguration<endereco_2>
+    public class endereco_2Map : EntityTypeConfiguration<Endereco_2>
     {
         public endereco_2Map()
         {

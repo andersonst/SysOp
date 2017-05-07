@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_turnoMap : EntityTypeConfiguration<ecf_turno>
+    public class ecf_turnoMap : EntityTypeConfiguration<Ecf_Turno>
     {
         public ecf_turnoMap()
         {

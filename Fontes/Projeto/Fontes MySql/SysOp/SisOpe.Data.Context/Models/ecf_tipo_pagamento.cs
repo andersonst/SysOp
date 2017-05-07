@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_tipo_pagamento
+    public partial class Ecf_Tipo_Pagamento
     {
-        public ecf_tipo_pagamento()
+        public Ecf_Tipo_Pagamento()
         {
-            this.ecf_total_tipo_pgto = new List<ecf_total_tipo_pgto>();
+            this.ecf_total_tipo_pgto = new List<Ecf_Total_Tipo_Pgto>();
         }
 
         public long ID { get; set; }
@@ -15,6 +15,6 @@ namespace SisOpe.Data.Context.Models
         public string DESCRICAO { get; set; }
         public string TEF { get; set; }
         public string IMPRIME_VINCULADO { get; set; }
-        public virtual ICollection<ecf_total_tipo_pgto> ecf_total_tipo_pgto { get; set; }
+        public virtual ICollection<Ecf_Total_Tipo_Pgto> ecf_total_tipo_pgto { get; set; }
     }
 }

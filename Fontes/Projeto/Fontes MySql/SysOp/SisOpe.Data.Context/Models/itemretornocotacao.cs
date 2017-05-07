@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class itemretornocotacao
+    public partial class ItemRetornoCotacao
     {
-        public itemretornocotacao()
+        public ItemRetornoCotacao()
         {
-            this.itemsolicitacaocompracotacaos = new List<itemsolicitacaocompracotacao>();
+            this.itemsolicitacaocompracotacaos = new List<ItemSolicitacaoCompraCotacao>();
         }
 
         public int IdItemRetornoCotacao { get; set; }
@@ -16,8 +16,8 @@ namespace SisOpe.Data.Context.Models
         public Nullable<decimal> QuantidadeFornecedor { get; set; }
         public Nullable<decimal> ValorUnitarioFornecedor { get; set; }
         public Nullable<int> DiasParaEntrega { get; set; }
-        public virtual fornecedorcotacao fornecedorcotacao { get; set; }
-        public virtual produtocotacao produtocotacao { get; set; }
-        public virtual ICollection<itemsolicitacaocompracotacao> itemsolicitacaocompracotacaos { get; set; }
+        public virtual FornecedorCotacao fornecedorcotacao { get; set; }
+        public virtual ProdutocCotacao produtocotacao { get; set; }
+        public virtual ICollection<ItemSolicitacaoCompraCotacao> itemsolicitacaocompracotacaos { get; set; }
     }
 }

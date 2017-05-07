@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class itemestoqueMap : EntityTypeConfiguration<itemestoque>
+    public class itemestoqueMap : EntityTypeConfiguration<ItemEstoque>
     {
         public itemestoqueMap()
         {

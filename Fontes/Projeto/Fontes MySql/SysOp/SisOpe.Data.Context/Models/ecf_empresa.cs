@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_empresa
+    public partial class Ecf_Empresa
     {
-        public ecf_empresa()
+        public Ecf_Empresa()
         {
-            this.ecf_configuracao = new List<ecf_configuracao>();
-            this.ecf_contador = new List<ecf_contador>();
-            this.ecf_empresa1 = new List<ecf_empresa>();
+            this.ecf_configuracao = new List<Ecf_Configuracao>();
+            this.ecf_contador = new List<Ecf_Contador>();
+            this.ecf_empresa1 = new List<Ecf_Empresa>();
         }
 
         public long ID { get; set; }
@@ -31,9 +31,9 @@ namespace SisOpe.Data.Context.Models
         public string FONE1 { get; set; }
         public string FONE2 { get; set; }
         public string CONTATO { get; set; }
-        public virtual ICollection<ecf_configuracao> ecf_configuracao { get; set; }
-        public virtual ICollection<ecf_contador> ecf_contador { get; set; }
-        public virtual ICollection<ecf_empresa> ecf_empresa1 { get; set; }
-        public virtual ecf_empresa ecf_empresa2 { get; set; }
+        public virtual ICollection<Ecf_Configuracao> ecf_configuracao { get; set; }
+        public virtual ICollection<Ecf_Contador> ecf_contador { get; set; }
+        public virtual ICollection<Ecf_Empresa> ecf_empresa1 { get; set; }
+        public virtual Ecf_Empresa ecf_empresa2 { get; set; }
     }
 }

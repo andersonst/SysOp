@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_tipo_pagamentoMap : EntityTypeConfiguration<ecf_tipo_pagamento>
+    public class ecf_tipo_pagamentoMap : EntityTypeConfiguration<Ecf_Tipo_Pagamento>
     {
         public ecf_tipo_pagamentoMap()
         {

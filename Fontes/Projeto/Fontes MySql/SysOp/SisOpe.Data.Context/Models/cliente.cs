@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class cliente
+    public partial class Cliente
     {
-        public cliente()
+        public Cliente()
         {
-            this.contatoes = new List<contato>();
+            this.contatoes = new List<Contato>();
         }
 
         public long ID { get; set; }
@@ -22,7 +22,7 @@ namespace SisOpe.Data.Context.Models
         public string TIPO_PESSOA { get; set; }
         public string EXCLUIDO { get; set; }
         public Nullable<System.DateTime> DATA_CADASTRO { get; set; }
-        public virtual situacao_cli situacao_cli { get; set; }
-        public virtual ICollection<contato> contatoes { get; set; }
+        public virtual Situacao_cli situacao_cli { get; set; }
+        public virtual ICollection<Contato> contatoes { get; set; }
     }
 }

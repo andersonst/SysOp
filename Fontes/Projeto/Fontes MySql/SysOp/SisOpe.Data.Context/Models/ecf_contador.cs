@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_contador
+    public partial class Ecf_Contador
     {
         public long ID { get; set; }
         public long ID_ECF_EMPRESA { get; set; }
@@ -21,6 +21,6 @@ namespace SisOpe.Data.Context.Models
         public Nullable<long> CODIGO_MUNICIPIO { get; set; }
         public string UF { get; set; }
         public string EMAIL { get; set; }
-        public virtual ecf_empresa ecf_empresa { get; set; }
+        public virtual Ecf_Empresa ecf_empresa { get; set; }
     }
 }

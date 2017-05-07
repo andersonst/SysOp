@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class vendaprodutonfMap : EntityTypeConfiguration<vendaprodutonf>
+    public class vendaprodutonfMap : EntityTypeConfiguration<VendaProdutoNF>
     {
         public vendaprodutonfMap()
         {

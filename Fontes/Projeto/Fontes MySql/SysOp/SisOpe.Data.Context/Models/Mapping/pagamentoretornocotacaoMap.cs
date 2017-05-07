@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class pagamentoretornocotacaoMap : EntityTypeConfiguration<pagamentoretornocotacao>
+    public class pagamentoretornocotacaoMap : EntityTypeConfiguration<PagamentoRetornoCotacao>
     {
         public pagamentoretornocotacaoMap()
         {

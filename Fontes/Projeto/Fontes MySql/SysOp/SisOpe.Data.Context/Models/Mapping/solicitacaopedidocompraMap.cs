@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class solicitacaopedidocompraMap : EntityTypeConfiguration<solicitacaopedidocompra>
+    public class solicitacaopedidocompraMap : EntityTypeConfiguration<Solicitacaopedidocompra>
     {
         public solicitacaopedidocompraMap()
         {

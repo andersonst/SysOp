@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class notafiscalMap : EntityTypeConfiguration<notafiscal>
+    public class notafiscalMap : EntityTypeConfiguration<NotaFiscal>
     {
         public notafiscalMap()
         {

@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_impressoraMap : EntityTypeConfiguration<ecf_impressora>
+    public class ecf_impressoraMap : EntityTypeConfiguration<Ecf_Impressora>
     {
         public ecf_impressoraMap()
         {

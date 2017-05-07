@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class itemsolicitacaocompra
+    public partial class ItemSolicitacaoCompra
     {
-        public itemsolicitacaocompra()
+        public ItemSolicitacaoCompra()
         {
-            this.itempedidocompras = new List<itempedidocompra>();
+            this.itempedidocompras = new List<ItemPedidoCompra>();
         }
 
         public int IdItemSolicitacaoCompra { get; set; }
@@ -16,8 +16,8 @@ namespace SisOpe.Data.Context.Models
         public Nullable<int> IdFornecedor { get; set; }
         public Nullable<int> Quantidade { get; set; }
         public Nullable<decimal> ValorUnitario { get; set; }
-        public virtual ICollection<itempedidocompra> itempedidocompras { get; set; }
-        public virtual produto produto { get; set; }
-        public virtual solicitacaocompra solicitacaocompra { get; set; }
+        public virtual ICollection<ItemPedidoCompra> itempedidocompras { get; set; }
+        public virtual Produto produto { get; set; }
+        public virtual Solicitacaocompra solicitacaocompra { get; set; }
     }
 }

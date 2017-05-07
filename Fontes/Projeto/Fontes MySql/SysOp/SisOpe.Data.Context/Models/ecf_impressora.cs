@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_impressora
+    public partial class Ecf_Impressora
     {
-        public ecf_impressora()
+        public Ecf_Impressora()
         {
-            this.ecf_movimento = new List<ecf_movimento>();
+            this.ecf_movimento = new List<Ecf_Movimento>();
         }
 
         public long ID { get; set; }
@@ -27,6 +27,6 @@ namespace SisOpe.Data.Context.Models
         public string MFD { get; set; }
         public string CRENAMFD { get; set; }
         public string DOCTO { get; set; }
-        public virtual ICollection<ecf_movimento> ecf_movimento { get; set; }
+        public virtual ICollection<Ecf_Movimento> ecf_movimento { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class departamentoMap : EntityTypeConfiguration<departamento>
+    public class departamentoMap : EntityTypeConfiguration<Departamento>
     {
         public departamentoMap()
         {

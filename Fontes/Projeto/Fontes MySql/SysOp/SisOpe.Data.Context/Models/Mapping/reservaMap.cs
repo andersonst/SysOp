@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class reservaMap : EntityTypeConfiguration<reserva>
+    public class reservaMap : EntityTypeConfiguration<Reserva>
     {
         public reservaMap()
         {

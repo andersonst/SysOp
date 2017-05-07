@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class nf2_detalheMap : EntityTypeConfiguration<nf2_detalhe>
+    public class nf2_detalheMap : EntityTypeConfiguration<Nf2_Detalhe>
     {
         public nf2_detalheMap()
         {

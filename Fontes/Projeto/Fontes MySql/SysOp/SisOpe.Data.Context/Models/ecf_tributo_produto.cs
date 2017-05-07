@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ecf_tributo_produto
+    public partial class Ecf_Tributo_Produto
     {
-        public ecf_tributo_produto()
+        public Ecf_Tributo_Produto()
         {
-            this.ecf_venda_detalhe = new List<ecf_venda_detalhe>();
-            this.nf2_detalhe = new List<nf2_detalhe>();
-            this.produtoes = new List<produto>();
+            this.ecf_venda_detalhe = new List<Ecf_Venda_Detalhe>();
+            this.nf2_detalhe = new List<Nf2_Detalhe>();
+            this.produtoes = new List<Produto>();
         }
 
         public long ID { get; set; }
@@ -22,8 +22,8 @@ namespace SisOpe.Data.Context.Models
         public string ECF_ICMS { get; set; }
         public string CST { get; set; }
         public string TOTALIZADOR_PARCIAL { get; set; }
-        public virtual ICollection<ecf_venda_detalhe> ecf_venda_detalhe { get; set; }
-        public virtual ICollection<nf2_detalhe> nf2_detalhe { get; set; }
-        public virtual ICollection<produto> produtoes { get; set; }
+        public virtual ICollection<Ecf_Venda_Detalhe> ecf_venda_detalhe { get; set; }
+        public virtual ICollection<Nf2_Detalhe> nf2_detalhe { get; set; }
+        public virtual ICollection<Produto> produtoes { get; set; }
     }
 }

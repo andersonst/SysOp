@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class profissao
+    public partial class Profissao
     {
         public int IdProfissoes { get; set; }
         public string Nome { get; set; }

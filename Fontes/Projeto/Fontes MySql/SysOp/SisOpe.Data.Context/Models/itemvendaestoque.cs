@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class itemvendaestoque
+    public partial class ItemVendaEstoque
     {
         public int IdItemVendaEstoque { get; set; }
         public Nullable<int> IdVendaProduto { get; set; }
@@ -11,7 +11,7 @@ namespace SisOpe.Data.Context.Models
         public Nullable<int> Valor { get; set; }
         public Nullable<long> IdProduto { get; set; }
         public Nullable<decimal> desconto { get; set; }
-        public virtual produto produto { get; set; }
-        public virtual vendaproduto vendaproduto { get; set; }
+        public virtual Produto produto { get; set; }
+        public virtual VendaProduto vendaproduto { get; set; }
     }
 }

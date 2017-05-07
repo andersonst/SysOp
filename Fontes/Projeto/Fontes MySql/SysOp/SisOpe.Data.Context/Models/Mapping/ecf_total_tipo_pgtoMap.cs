@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_total_tipo_pgtoMap : EntityTypeConfiguration<ecf_total_tipo_pgto>
+    public class ecf_total_tipo_pgtoMap : EntityTypeConfiguration<Ecf_Total_Tipo_Pgto>
     {
         public ecf_total_tipo_pgtoMap()
         {

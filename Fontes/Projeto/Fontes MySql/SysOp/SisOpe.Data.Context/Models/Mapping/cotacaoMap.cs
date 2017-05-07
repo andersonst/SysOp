@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class cotacaoMap : EntityTypeConfiguration<cotacao>
+    public class cotacaoMap : EntityTypeConfiguration<Cotacao>
     {
         public cotacaoMap()
         {

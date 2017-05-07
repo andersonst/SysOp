@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class ordemservico
+    public partial class OrdemServico
     {
-        public ordemservico()
+        public OrdemServico()
         {
-            this.arquivosordemservicoes = new List<arquivosordemservico>();
-            this.equipeordemservicoes = new List<equipeordemservico>();
-            this.historicoordemservicoes = new List<historicoordemservico>();
-            this.pagamentoordemservicoes = new List<pagamentoordemservico>();
+            this.arquivosordemservicoes = new List<ArquivosOrdemServico>();
+            this.equipeordemservicoes = new List<EquipeOrdemServico>();
+            this.historicoordemservicoes = new List<HistoricoOrdemServico>();
+            this.pagamentoordemservicoes = new List<PagamentoOrdemServico>();
         }
 
         public int IdOrdemServico { get; set; }
@@ -19,11 +19,11 @@ namespace SisOpe.Data.Context.Models
         public Nullable<bool> Prioridade { get; set; }
         public string Titulo { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<arquivosordemservico> arquivosordemservicoes { get; set; }
-        public virtual ICollection<equipeordemservico> equipeordemservicoes { get; set; }
-        public virtual ICollection<historicoordemservico> historicoordemservicoes { get; set; }
-        public virtual pessoa pessoa { get; set; }
-        public virtual statusordemservico statusordemservico { get; set; }
-        public virtual ICollection<pagamentoordemservico> pagamentoordemservicoes { get; set; }
+        public virtual ICollection<ArquivosOrdemServico> arquivosordemservicoes { get; set; }
+        public virtual ICollection<EquipeOrdemServico> equipeordemservicoes { get; set; }
+        public virtual ICollection<HistoricoOrdemServico> historicoordemservicoes { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual StatusOrdemServico statusordemservico { get; set; }
+        public virtual ICollection<PagamentoOrdemServico> pagamentoordemservicoes { get; set; }
     }
 }

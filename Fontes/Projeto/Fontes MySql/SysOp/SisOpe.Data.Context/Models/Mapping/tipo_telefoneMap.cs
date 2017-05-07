@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class tipo_telefoneMap : EntityTypeConfiguration<tipo_telefone>
+    public class tipo_telefoneMap : EntityTypeConfiguration<Tipo_Telefone>
     {
         public tipo_telefoneMap()
         {

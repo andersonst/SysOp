@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_resolucaoMap : EntityTypeConfiguration<ecf_resolucao>
+    public class ecf_resolucaoMap : EntityTypeConfiguration<Ecf_Resolucao>
     {
         public ecf_resolucaoMap()
         {

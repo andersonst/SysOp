@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class transferenciaestoqueMap : EntityTypeConfiguration<transferenciaestoque>
+    public class transferenciaestoqueMap : EntityTypeConfiguration<TransferenciaEstoque>
     {
         public transferenciaestoqueMap()
         {

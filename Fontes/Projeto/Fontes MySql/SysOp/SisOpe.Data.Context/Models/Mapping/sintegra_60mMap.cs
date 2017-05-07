@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class sintegra_60mMap : EntityTypeConfiguration<sintegra_60m>
+    public class sintegra_60mMap : EntityTypeConfiguration<Sintegra_60m>
     {
         public sintegra_60mMap()
         {

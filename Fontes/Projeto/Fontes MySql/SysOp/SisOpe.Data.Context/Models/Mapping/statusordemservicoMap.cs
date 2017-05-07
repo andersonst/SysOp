@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class statusordemservicoMap : EntityTypeConfiguration<statusordemservico>
+    public class statusordemservicoMap : EntityTypeConfiguration<StatusOrdemServico>
     {
         public statusordemservicoMap()
         {

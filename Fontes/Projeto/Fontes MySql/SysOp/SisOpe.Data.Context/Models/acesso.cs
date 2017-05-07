@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class acesso
+    public partial class Acesso
     {
-        public acesso()
-        {
-            this.acessousuarios = new List<acessousuario>();
-        }
+        //public Acesso()
+        //{
+        //    this.acessousuarios = new List<acessousuario>();
+        //}
 
         public int IdAcesso { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<acessousuario> acessousuarios { get; set; }
+        public virtual ICollection<AcessoUsuario> acessousuarios { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class nf2_cabecalho
+    public partial class Nf2_Cabecalho
     {
         //public nf2_cabecalho()
         //{
@@ -35,9 +35,9 @@ namespace SisOpe.Data.Context.Models
         public Nullable<decimal> DESCONTO_ITENS { get; set; }
         public string CANCELADA { get; set; }
         public string SINCRONIZADO { get; set; }
-        public virtual cfop cfop { get; set; }
-        public virtual pessoa pessoa { get; set; }
-        public virtual pessoa pessoa1 { get; set; }
-        public virtual ICollection<nf2_detalhe> nf2_detalhe { get; set; }
+        public virtual Cfop cfop { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual Pessoa pessoa1 { get; set; }
+        public virtual ICollection<Nf2_Detalhe> nf2_detalhe { get; set; }
     }
 }

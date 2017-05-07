@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class usuarioMap : EntityTypeConfiguration<usuario>
+    public class usuarioMap : EntityTypeConfiguration<Usuario>
     {
         public usuarioMap()
         {

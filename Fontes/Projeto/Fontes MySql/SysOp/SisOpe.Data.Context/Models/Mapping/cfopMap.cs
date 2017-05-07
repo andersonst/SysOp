@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class cfopMap : EntityTypeConfiguration<cfop>
+    public class cfopMap : EntityTypeConfiguration<Cfop>
     {
         public cfopMap()
         {

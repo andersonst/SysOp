@@ -3,24 +3,24 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class unidade
+    public partial class Unidade
     {
-        public unidade()
+        public Unidade()
         {
-            this.itemestoques = new List<itemestoque>();
-            this.itemtransferenciaestoques = new List<itemtransferenciaestoque>();
-            this.itemtransferenciaestoques1 = new List<itemtransferenciaestoque>();
-            this.reservas = new List<reserva>();
-            this.vendaprodutoes = new List<vendaproduto>();
+            this.itemestoques = new List<ItemEstoque>();
+            this.itemtransferenciaestoques = new List<ItemTransferenciaEstoque>();
+            this.itemtransferenciaestoques1 = new List<ItemTransferenciaEstoque>();
+            this.reservas = new List<Reserva>();
+            this.vendaprodutoes = new List<VendaProduto>();
         }
 
         public int IdUnidade { get; set; }
         public Nullable<int> IdPessoaJuridica { get; set; }
         public Nullable<int> IdMatriz { get; set; }
-        public virtual ICollection<itemestoque> itemestoques { get; set; }
-        public virtual ICollection<itemtransferenciaestoque> itemtransferenciaestoques { get; set; }
-        public virtual ICollection<itemtransferenciaestoque> itemtransferenciaestoques1 { get; set; }
-        public virtual ICollection<reserva> reservas { get; set; }
-        public virtual ICollection<vendaproduto> vendaprodutoes { get; set; }
+        public virtual ICollection<ItemEstoque> itemestoques { get; set; }
+        public virtual ICollection<ItemTransferenciaEstoque> itemtransferenciaestoques { get; set; }
+        public virtual ICollection<ItemTransferenciaEstoque> itemtransferenciaestoques1 { get; set; }
+        public virtual ICollection<Reserva> reservas { get; set; }
+        public virtual ICollection<VendaProduto> vendaprodutoes { get; set; }
     }
 }

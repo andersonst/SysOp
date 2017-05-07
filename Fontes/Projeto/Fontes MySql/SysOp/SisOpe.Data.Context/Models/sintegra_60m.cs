@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class sintegra_60m
+    public partial class Sintegra_60m
     {
         public long ID { get; set; }
         public Nullable<System.DateTime> DATA_EMISSAO { get; set; }

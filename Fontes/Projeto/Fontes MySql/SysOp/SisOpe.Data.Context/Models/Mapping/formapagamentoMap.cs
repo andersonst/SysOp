@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class formapagamentoMap : EntityTypeConfiguration<formapagamento>
+    public class formapagamentoMap : EntityTypeConfiguration<FormaPagamento>
     {
         public formapagamentoMap()
         {

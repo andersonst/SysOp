@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class statuscotacao
+    public partial class StatusCotacao
     {
-        public statuscotacao()
+        public StatusCotacao()
         {
-            this.cotacaos = new List<cotacao>();
-            this.historicostatuscotacaos = new List<historicostatuscotacao>();
+            this.cotacaos = new List<Cotacao>();
+            this.historicostatuscotacaos = new List<HistoricoStatusCotacao>();
         }
 
         public int IdStatusCotacao { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<cotacao> cotacaos { get; set; }
-        public virtual ICollection<historicostatuscotacao> historicostatuscotacaos { get; set; }
+        public virtual ICollection<Cotacao> cotacaos { get; set; }
+        public virtual ICollection<HistoricoStatusCotacao> historicostatuscotacaos { get; set; }
     }
 }

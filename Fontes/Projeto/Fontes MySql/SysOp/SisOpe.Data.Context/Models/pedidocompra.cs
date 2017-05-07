@@ -3,25 +3,25 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class pedidocompra
+    public partial class PedidoCompra
     {
-        public pedidocompra()
+        public PedidoCompra()
         {
-            this.entradaprodutonfs = new List<entradaprodutonf>();
-            this.itempedidocompras = new List<itempedidocompra>();
-            this.itempedidocompracotacaos = new List<itempedidocompracotacao>();
-            this.pagamentopedidocompras = new List<pagamentopedidocompra>();
-            this.solicitacaopedidocompras = new List<solicitacaopedidocompra>();
+            this.entradaprodutonfs = new List<EntradaProdutoNF>();
+            this.itempedidocompras = new List<ItemPedidoCompra>();
+            this.itempedidocompracotacaos = new List<ItemPedidoCompraCotacao>();
+            this.pagamentopedidocompras = new List<PagamentoPedidoCompra>();
+            this.solicitacaopedidocompras = new List<Solicitacaopedidocompra>();
         }
 
         public int IdPedidoCompra { get; set; }
         public Nullable<System.DateTime> Data { get; set; }
         public string Automatico { get; set; }
         public string Status { get; set; }
-        public virtual ICollection<entradaprodutonf> entradaprodutonfs { get; set; }
-        public virtual ICollection<itempedidocompra> itempedidocompras { get; set; }
-        public virtual ICollection<itempedidocompracotacao> itempedidocompracotacaos { get; set; }
-        public virtual ICollection<pagamentopedidocompra> pagamentopedidocompras { get; set; }
-        public virtual ICollection<solicitacaopedidocompra> solicitacaopedidocompras { get; set; }
+        public virtual ICollection<EntradaProdutoNF> entradaprodutonfs { get; set; }
+        public virtual ICollection<ItemPedidoCompra> itempedidocompras { get; set; }
+        public virtual ICollection<ItemPedidoCompraCotacao> itempedidocompracotacaos { get; set; }
+        public virtual ICollection<PagamentoPedidoCompra> pagamentopedidocompras { get; set; }
+        public virtual ICollection<Solicitacaopedidocompra> solicitacaopedidocompras { get; set; }
     }
 }

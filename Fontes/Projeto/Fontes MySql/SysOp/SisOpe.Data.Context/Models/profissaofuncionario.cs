@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class profissaofuncionario
+    public partial class ProfissaoFuncionario
     {
         public int IdProfissaoFuncionario { get; set; }
         public Nullable<int> IdProfissao { get; set; }

@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class finalidadeMap : EntityTypeConfiguration<finalidade>
+    public class finalidadeMap : EntityTypeConfiguration<Finalidade>
     {
         public finalidadeMap()
         {

@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class ecf_suprimentoMap : EntityTypeConfiguration<ecf_suprimento>
+    public class ecf_suprimentoMap : EntityTypeConfiguration<Ecf_Suprimento>
     {
         public ecf_suprimentoMap()
         {

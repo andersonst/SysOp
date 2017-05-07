@@ -3,20 +3,20 @@ using System.Collections.Generic;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class produto
+    public partial class Produto
     {
-        public produto()
+        public Produto()
         {
-            this.ecf_dav_detalhe = new List<ecf_dav_detalhe>();
-            this.ecf_pre_venda_detalhe = new List<ecf_pre_venda_detalhe>();
-            this.ecf_venda_detalhe = new List<ecf_venda_detalhe>();
-            this.ficha_tecnica = new List<ficha_tecnica>();
-            this.itemestoques = new List<itemestoque>();
-            this.itemprodutonotafiscals = new List<itemprodutonotafiscal>();
-            this.itemsolicitacaocompras = new List<itemsolicitacaocompra>();
-            this.itemvendaestoques = new List<itemvendaestoque>();
-            this.nf2_detalhe = new List<nf2_detalhe>();
-            this.produto_promocao = new List<produto_promocao>();
+            this.ecf_dav_detalhe = new List<Ecf_Dav_Detalhe>();
+            this.ecf_pre_venda_detalhe = new List<Ecf_Pre_Venda_Detalhe>();
+            this.ecf_venda_detalhe = new List<Ecf_Venda_Detalhe>();
+            this.ficha_tecnica = new List<Ficha_Tecnica>();
+            this.itemestoques = new List<ItemEstoque>();
+            this.itemprodutonotafiscals = new List<ItemProdutoNotaFiscal>();
+            this.itemsolicitacaocompras = new List<ItemSolicitacaoCompra>();
+            this.itemvendaestoques = new List<ItemVendaEstoque>();
+            this.nf2_detalhe = new List<Nf2_Detalhe>();
+            this.produto_promocao = new List<Produto_Promocao>();
         }
 
         public long ID { get; set; }
@@ -34,17 +34,17 @@ namespace SisOpe.Data.Context.Models
         public string IAT { get; set; }
         public string IPPT { get; set; }
         public string NCM { get; set; }
-        public virtual ICollection<ecf_dav_detalhe> ecf_dav_detalhe { get; set; }
-        public virtual ICollection<ecf_pre_venda_detalhe> ecf_pre_venda_detalhe { get; set; }
-        public virtual ecf_tributo_produto ecf_tributo_produto { get; set; }
-        public virtual ICollection<ecf_venda_detalhe> ecf_venda_detalhe { get; set; }
-        public virtual ICollection<ficha_tecnica> ficha_tecnica { get; set; }
-        public virtual ICollection<itemestoque> itemestoques { get; set; }
-        public virtual ICollection<itemprodutonotafiscal> itemprodutonotafiscals { get; set; }
-        public virtual ICollection<itemsolicitacaocompra> itemsolicitacaocompras { get; set; }
-        public virtual ICollection<itemvendaestoque> itemvendaestoques { get; set; }
-        public virtual ICollection<nf2_detalhe> nf2_detalhe { get; set; }
-        public virtual unidade_produto unidade_produto { get; set; }
-        public virtual ICollection<produto_promocao> produto_promocao { get; set; }
+        public virtual ICollection<Ecf_Dav_Detalhe> ecf_dav_detalhe { get; set; }
+        public virtual ICollection<Ecf_Pre_Venda_Detalhe> ecf_pre_venda_detalhe { get; set; }
+        public virtual Ecf_Tributo_Produto ecf_tributo_produto { get; set; }
+        public virtual ICollection<Ecf_Venda_Detalhe> ecf_venda_detalhe { get; set; }
+        public virtual ICollection<Ficha_Tecnica> ficha_tecnica { get; set; }
+        public virtual ICollection<ItemEstoque> itemestoques { get; set; }
+        public virtual ICollection<ItemProdutoNotaFiscal> itemprodutonotafiscals { get; set; }
+        public virtual ICollection<ItemSolicitacaoCompra> itemsolicitacaocompras { get; set; }
+        public virtual ICollection<ItemVendaEstoque> itemvendaestoques { get; set; }
+        public virtual ICollection<Nf2_Detalhe> nf2_detalhe { get; set; }
+        public virtual Unidade_Produto unidade_produto { get; set; }
+        public virtual ICollection<Produto_Promocao> produto_promocao { get; set; }
     }
 }

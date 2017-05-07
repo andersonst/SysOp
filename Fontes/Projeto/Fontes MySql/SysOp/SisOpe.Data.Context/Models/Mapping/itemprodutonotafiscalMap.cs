@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class itemprodutonotafiscalMap : EntityTypeConfiguration<itemprodutonotafiscal>
+    public class itemprodutonotafiscalMap : EntityTypeConfiguration<ItemProdutoNotaFiscal>
     {
         public itemprodutonotafiscalMap()
         {
