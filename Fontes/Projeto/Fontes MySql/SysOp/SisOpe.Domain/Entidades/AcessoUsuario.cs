@@ -8,7 +8,7 @@ namespace SisOpe.Domain.Entidades
         public int IdAcessoUsuario { get; set; }
         public Nullable<int> IdUsuario { get; set; }
         public Nullable<int> IdAcesso { get; set; }
-        public virtual Acesso Acesso { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public virtual Acesso acesso { get; set; }
+        public virtual Usuario usuario { get; set; }
     }
 }

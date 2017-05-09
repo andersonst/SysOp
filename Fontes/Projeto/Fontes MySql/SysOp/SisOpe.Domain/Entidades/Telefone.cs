@@ -9,7 +9,7 @@ namespace SisOpe.Domain.Entidades
         public string Tipo { get; set; }
         public string DDD { get; set; }
         public string Telefone1 { get; set; }
-        public Nullable<int> IdPessoa { get; set; }
-        public virtual Pessoa Pessoa { get; set; }
+        public Nullable<long> IdPessoa { get; set; }
+        public virtual Pessoa pessoa { get; set; }
     }
 }

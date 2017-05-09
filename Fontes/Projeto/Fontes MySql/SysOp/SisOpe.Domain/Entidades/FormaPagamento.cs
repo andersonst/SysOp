@@ -7,11 +7,11 @@ namespace SisOpe.Domain.Entidades
     {
         public FormaPagamento()
         {
-            this.PagamentoRetornoCotacaos = new List<PagamentoRetornoCotacao>();
+            this.pagamentoretornocotacaos = new List<PagamentoRetornoCotacao>();
         }
 
         public int IdFormaPagamento { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<PagamentoRetornoCotacao> PagamentoRetornoCotacaos { get; set; }
+        public virtual ICollection<PagamentoRetornoCotacao> pagamentoretornocotacaos { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace SisOpe.Domain.Entidades
     {
         public ItemSolicitacaoCompraCotacao()
         {
-            this.ItemPedidoCompraCotacaos = new List<ItemPedidoCompraCotacao>();
+            this.itempedidocompracotacaos = new List<ItemPedidoCompraCotacao>();
         }
 
         public int IdItemSolicitacaoCompraCotacao { get; set; }
@@ -15,8 +15,8 @@ namespace SisOpe.Domain.Entidades
         public Nullable<int> IdItemRetornoCotacao { get; set; }
         public Nullable<int> Quantidade { get; set; }
         public Nullable<decimal> ValorUnitario { get; set; }
-        public virtual ICollection<ItemPedidoCompraCotacao> ItemPedidoCompraCotacaos { get; set; }
-        public virtual ItemRetornoCotacao ItemRetornoCotacao { get; set; }
-        public virtual SolicitacaoCompra SolicitacaoCompra { get; set; }
+        public virtual ICollection<ItemPedidoCompraCotacao> itempedidocompracotacaos { get; set; }
+        public virtual ItemRetornoCotacao itemretornocotacao { get; set; }
+        public virtual SolicitacaoCompra solicitacaocompra { get; set; }
     }
 }

@@ -7,9 +7,7 @@ namespace SisOpe.Domain.Entidades
     {
         public TransferenciaEstoque()
         {
-            this.ItemReservaProdutoes = new List<ItemReservaProduto>();
-            this.ItemReservaVendaProdutoes = new List<ItemReservaVendaProduto>();
-            this.ItemTransferenciaEstoques = new List<ItemTransferenciaEstoque>();
+            this.itemtransferenciaestoques = new List<ItemTransferenciaEstoque>();
         }
 
         public int IdTE { get; set; }
@@ -17,8 +15,6 @@ namespace SisOpe.Domain.Entidades
         public Nullable<System.DateTime> DataSeparacao { get; set; }
         public Nullable<System.DateTime> DataAtual { get; set; }
         public Nullable<int> IdOperador { get; set; }
-        public virtual ICollection<ItemReservaProduto> ItemReservaProdutoes { get; set; }
-        public virtual ICollection<ItemReservaVendaProduto> ItemReservaVendaProdutoes { get; set; }
-        public virtual ICollection<ItemTransferenciaEstoque> ItemTransferenciaEstoques { get; set; }
+        public virtual ICollection<ItemTransferenciaEstoque> itemtransferenciaestoques { get; set; }
     }
 }

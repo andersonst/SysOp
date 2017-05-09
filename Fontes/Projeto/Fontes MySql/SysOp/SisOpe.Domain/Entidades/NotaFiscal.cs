@@ -7,8 +7,8 @@ namespace SisOpe.Domain.Entidades
     {
         public NotaFiscal()
         {
-            this.EntradaProdutoNFs = new List<EntradaProdutoNF>();
-            this.ItemProdutoNotaFiscals = new List<ItemProdutoNotaFiscal>();
+            this.entradaprodutonfs = new List<EntradaProdutoNF>();
+            this.itemprodutonotafiscals = new List<ItemProdutoNotaFiscal>();
         }
 
         public int IdNotaFiscal { get; set; }
@@ -19,7 +19,7 @@ namespace SisOpe.Domain.Entidades
         public string ChaveAcesso { get; set; }
         public string PalavrasChave { get; set; }
         public string Observacoes { get; set; }
-        public virtual ICollection<EntradaProdutoNF> EntradaProdutoNFs { get; set; }
-        public virtual ICollection<ItemProdutoNotaFiscal> ItemProdutoNotaFiscals { get; set; }
+        public virtual ICollection<EntradaProdutoNF> entradaprodutonfs { get; set; }
+        public virtual ICollection<ItemProdutoNotaFiscal> itemprodutonotafiscals { get; set; }
     }
 }

@@ -7,19 +7,19 @@ namespace SisOpe.Domain.Entidades
     {
         public Usuario()
         {
-            this.AcessoUsuarios = new List<AcessoUsuario>();
-            this.HistoricoStatusCotacaos = new List<HistoricoStatusCotacao>();
-            this.Reservas = new List<Reserva>();
+            this.acessousuarios = new List<AcessoUsuario>();
+            this.historicostatuscotacaos = new List<HistoricoStatusCotacao>();
+            this.reservas = new List<Reserva>();
         }
 
         public int IdUsuario { get; set; }
-        public Nullable<int> IdPessoa { get; set; }
+        public Nullable<long> IdPessoa { get; set; }
         public string Login { get; set; }
         public string Senha { get; set; }
         public Nullable<bool> Status { get; set; }
-        public virtual ICollection<AcessoUsuario> AcessoUsuarios { get; set; }
-        public virtual ICollection<HistoricoStatusCotacao> HistoricoStatusCotacaos { get; set; }
-        public virtual Pessoa Pessoa { get; set; }
-        public virtual ICollection<Reserva> Reservas { get; set; }
+        public virtual ICollection<AcessoUsuario> acessousuarios { get; set; }
+        public virtual ICollection<HistoricoStatusCotacao> historicostatuscotacaos { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual ICollection<Reserva> reservas { get; set; }
     }
 }

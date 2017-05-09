@@ -14,6 +14,6 @@ namespace SisOpe.Domain.Entidades
         public Nullable<decimal> ValorPago { get; set; }
         public Nullable<System.DateTime> DataPagamento { get; set; }
         public Nullable<int> IdOrdemServico { get; set; }
-        public virtual OrdemServico OrdemServico { get; set; }
+        public virtual OrdemServico ordemservico { get; set; }
     }
 }

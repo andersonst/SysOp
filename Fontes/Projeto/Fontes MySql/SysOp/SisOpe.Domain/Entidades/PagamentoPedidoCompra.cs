@@ -15,6 +15,6 @@ namespace SisOpe.Domain.Entidades
         public Nullable<decimal> ValorPago { get; set; }
         public Nullable<System.DateTime> DataPagamento { get; set; }
         public string Status { get; set; }
-        public virtual PedidoCompra PedidoCompra { get; set; }
+        public virtual PedidoCompra pedidocompra { get; set; }
     }
 }

@@ -7,14 +7,14 @@ namespace SisOpe.Domain.Entidades
     {
         public EntradaProduto()
         {
-            this.EntradaProdutoNFs = new List<EntradaProdutoNF>();
-            this.ItemEntradaEstoques = new List<ItemEntradaEstoque>();
+            this.entradaprodutonfs = new List<EntradaProdutoNF>();
+            this.itementradaestoques = new List<ItemEntradaEstoque>();
         }
 
         public int IdEntradaProduto { get; set; }
         public Nullable<System.DateTime> DataEntrada { get; set; }
         public Nullable<int> IdUsuario { get; set; }
-        public virtual ICollection<EntradaProdutoNF> EntradaProdutoNFs { get; set; }
-        public virtual ICollection<ItemEntradaEstoque> ItemEntradaEstoques { get; set; }
+        public virtual ICollection<EntradaProdutoNF> entradaprodutonfs { get; set; }
+        public virtual ICollection<ItemEntradaEstoque> itementradaestoques { get; set; }
     }
 }

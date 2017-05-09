@@ -7,22 +7,20 @@ namespace SisOpe.Domain.Entidades
     {
         public Unidade()
         {
-            this.ItemEstoques = new List<ItemEstoque>();
-            this.ItemReservaVendaProdutoes = new List<ItemReservaVendaProduto>();
-            this.IdLocalOrigem = new List<ItemTransferenciaEstoque>();
-            this.IdLocalDestino = new List<ItemTransferenciaEstoque>();
-            this.Reservas = new List<Reserva>();
-            this.VendaProdutoes = new List<VendaProduto>();
+            this.itemestoques = new List<ItemEstoque>();
+            this.itemtransferenciaestoques = new List<ItemTransferenciaEstoque>();
+            this.itemtransferenciaestoques1 = new List<ItemTransferenciaEstoque>();
+            this.reservas = new List<Reserva>();
+            this.vendaprodutoes = new List<VendaProduto>();
         }
 
         public int IdUnidade { get; set; }
         public Nullable<int> IdPessoaJuridica { get; set; }
         public Nullable<int> IdMatriz { get; set; }
-        public virtual ICollection<ItemEstoque> ItemEstoques { get; set; }
-        public virtual ICollection<ItemReservaVendaProduto> ItemReservaVendaProdutoes { get; set; }
-        public virtual ICollection<ItemTransferenciaEstoque> IdLocalOrigem { get; set; }
-        public virtual ICollection<ItemTransferenciaEstoque> IdLocalDestino { get; set; }
-        public virtual ICollection<Reserva> Reservas { get; set; }
-        public virtual ICollection<VendaProduto> VendaProdutoes { get; set; }
+        public virtual ICollection<ItemEstoque> itemestoques { get; set; }
+        public virtual ICollection<ItemTransferenciaEstoque> itemtransferenciaestoques { get; set; }
+        public virtual ICollection<ItemTransferenciaEstoque> itemtransferenciaestoques1 { get; set; }
+        public virtual ICollection<Reserva> reservas { get; set; }
+        public virtual ICollection<VendaProduto> vendaprodutoes { get; set; }
     }
 }

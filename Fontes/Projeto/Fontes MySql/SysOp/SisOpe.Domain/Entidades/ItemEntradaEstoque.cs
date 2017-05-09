@@ -10,6 +10,6 @@ namespace SisOpe.Domain.Entidades
         public Nullable<int> Lote { get; set; }
         public Nullable<int> Quantidade { get; set; }
         public Nullable<decimal> ValorUnitarioCusto { get; set; }
-        public virtual EntradaProduto EntradaProduto { get; set; }
+        public virtual EntradaProduto entradaproduto { get; set; }
     }
 }

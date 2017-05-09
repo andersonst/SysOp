@@ -41,3 +41,4 @@ C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Data.Reposi
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.pdb
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Data.Repository\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Anderson\Documents\GitHub\Projeto SysOp\SysOp\Fontes\Projeto\Fontes MySql\SysOp\SisOpe.Data.Repository\obj\Debug\SisOpe.Data.Repository.csprojResolveAssemblyReference.cache

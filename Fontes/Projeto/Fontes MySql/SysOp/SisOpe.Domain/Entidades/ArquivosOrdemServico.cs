@@ -8,6 +8,6 @@ namespace SisOpe.Domain.Entidades
         public int IdArquivosOrdemServico { get; set; }
         public Nullable<int> IdOrdemServico { get; set; }
         public string PathArquivo { get; set; }
-        public virtual OrdemServico OrdemServico { get; set; }
+        public virtual OrdemServico ordemservico { get; set; }
     }
 }

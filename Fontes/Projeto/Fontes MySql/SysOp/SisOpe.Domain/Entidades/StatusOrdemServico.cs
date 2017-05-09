@@ -7,12 +7,12 @@ namespace SisOpe.Domain.Entidades
     {
         public StatusOrdemServico()
         {
-            this.OrdemServicoes = new List<OrdemServico>();
+            this.ordemservicoes = new List<OrdemServico>();
         }
 
         public int IdStatusOrdemServico { get; set; }
         public string Descricao { get; set; }
         public string Status { get; set; }
-        public virtual ICollection<OrdemServico> OrdemServicoes { get; set; }
+        public virtual ICollection<OrdemServico> ordemservicoes { get; set; }
     }
 }

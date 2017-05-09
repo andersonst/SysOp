@@ -7,13 +7,13 @@ namespace SisOpe.Domain.Entidades
     {
         public StatusCotacao()
         {
-            this.Cotacaos = new List<Cotacao>();
-            this.HistoricoStatusCotacaos = new List<HistoricoStatusCotacao>();
+            this.cotacaos = new List<Cotacao>();
+            this.historicostatuscotacaos = new List<HistoricoStatusCotacao>();
         }
 
         public int IdStatusCotacao { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<Cotacao> Cotacaos { get; set; }
-        public virtual ICollection<HistoricoStatusCotacao> HistoricoStatusCotacaos { get; set; }
+        public virtual ICollection<Cotacao> cotacaos { get; set; }
+        public virtual ICollection<HistoricoStatusCotacao> historicostatuscotacaos { get; set; }
     }
 }

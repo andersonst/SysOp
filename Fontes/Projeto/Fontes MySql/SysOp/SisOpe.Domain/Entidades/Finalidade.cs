@@ -7,12 +7,12 @@ namespace SisOpe.Domain.Entidades
     {
         public Finalidade()
         {
-            this.ProdutoCotacaos = new List<ProdutoCotacao>();
+            this.produtocotacaos = new List<ProdutoCotacao>();
         }
 
         public int IdFinalidade { get; set; }
         public string Descricao { get; set; }
         public string Status { get; set; }
-        public virtual ICollection<ProdutoCotacao> ProdutoCotacaos { get; set; }
+        public virtual ICollection<ProdutoCotacao> produtocotacaos { get; set; }
     }
 }

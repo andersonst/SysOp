@@ -9,9 +9,9 @@ namespace SisOpe.Domain.Entidades
         public Nullable<int> IdVendaProduto { get; set; }
         public Nullable<int> Quantidade { get; set; }
         public Nullable<int> Valor { get; set; }
-        public Nullable<int> IdProduto { get; set; }
+        public Nullable<long> IdProduto { get; set; }
         public Nullable<decimal> desconto { get; set; }
-        public virtual Produto Produto { get; set; }
-        public virtual VendaProduto VendaProduto { get; set; }
+        public virtual Produto produto { get; set; }
+        public virtual VendaProduto vendaproduto { get; set; }
     }
 }

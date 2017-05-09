@@ -7,7 +7,7 @@ namespace SisOpe.Domain.Entidades
     {
         public FornecedorCotacao()
         {
-            this.ItemRetornoCotacaos = new List<ItemRetornoCotacao>();
+            this.itemretornocotacaos = new List<ItemRetornoCotacao>();
         }
 
         public int IdFornecedorCotacao { get; set; }
@@ -16,9 +16,9 @@ namespace SisOpe.Domain.Entidades
         public Nullable<decimal> ValorFrete { get; set; }
         public string Observacao { get; set; }
         public Nullable<System.DateTime> DataRetorno { get; set; }
-        public Nullable<int> IdPessoa { get; set; }
-        public virtual Cotacao Cotacao { get; set; }
-        public virtual Pessoa Pessoa { get; set; }
-        public virtual ICollection<ItemRetornoCotacao> ItemRetornoCotacaos { get; set; }
+        public Nullable<long> IdPessoa { get; set; }
+        public virtual Cotacao cotacao { get; set; }
+        public virtual Pessoa pessoa { get; set; }
+        public virtual ICollection<ItemRetornoCotacao> itemretornocotacaos { get; set; }
     }
 }

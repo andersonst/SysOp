@@ -10,6 +10,6 @@ namespace SisOpe.Domain.Entidades
         public Nullable<System.DateTime> Data { get; set; }
         public Nullable<int> IdUsuario { get; set; }
         public string Observacao { get; set; }
-        public virtual OrdemServico OrdemServico { get; set; }
+        public virtual OrdemServico ordemservico { get; set; }
     }
 }

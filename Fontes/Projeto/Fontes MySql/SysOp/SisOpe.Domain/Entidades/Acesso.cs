@@ -5,13 +5,13 @@ namespace SisOpe.Domain.Entidades
 {
     public partial class Acesso
     {
-        public Acesso()
-        {
-            this.AcessoUsuarios = new List<AcessoUsuario>();
-        }
+        //public Acesso()
+        //{
+        //    this.acessousuarios = new List<acessousuario>();
+        //}
 
         public int IdAcesso { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<AcessoUsuario> AcessoUsuarios { get; set; }
+        public virtual ICollection<AcessoUsuario> acessousuarios { get; set; }
     }
 }

@@ -4,14 +4,14 @@ using SisOpe.Data.Context.Models.Mapping;
 
 namespace SisOpe.Data.Context.Models
 {
-    public partial class SysopContext : DbContext
+    public partial class SysOpContext : DbContext
     {
-        static SysopContext()
+        static SysOpContext()
         {
-            Database.SetInitializer<SysopContext>(null);
+            Database.SetInitializer<SysOpContext>(null);
         }
 
-        public SysopContext()
+        public SysOpContext()
             : base("Name=SysOpConnection")
         {
         }
