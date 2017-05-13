@@ -1,3 +1,4 @@
+using SisOpe.Domain.Entidades;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 

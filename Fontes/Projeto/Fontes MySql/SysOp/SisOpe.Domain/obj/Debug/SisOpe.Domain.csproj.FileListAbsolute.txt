@@ -18,4 +18,3 @@ C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Domain\bin\
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Domain\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\Anderson\Documents\Visual Studio 2013\Projects\SysOp\SisOpe.Domain\obj\Debug\SisOpe.Domain.csprojResolveAssemblyReference.cache
-C:\Users\Anderson\Documents\GitHub\Projeto SysOp\SysOp\Fontes\Projeto\Fontes MySql\SysOp\SisOpe.Domain\obj\Debug\SisOpe.Domain.csprojResolveAssemblyReference.cache

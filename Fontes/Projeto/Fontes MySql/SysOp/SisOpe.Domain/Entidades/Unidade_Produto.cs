@@ -5,10 +5,10 @@ namespace SisOpe.Domain.Entidades
 {
     public partial class Unidade_Produto
     {
-        public Unidade_Produto()
-        {
-            this.produtoes = new List<Produto>();
-        }
+        //public Unidade_Produto()
+        //{
+        //    this.produtoes = new List<Produto>();
+        //}
 
         public long ID { get; set; }
         public string NOME { get; set; }

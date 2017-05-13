@@ -1,9 +1,10 @@
+using SisOpe.Domain.Entidades;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class TabelaPrecoMap : EntityTypeConfiguration<Tabelapreco>
+    public class TabelaPrecoMap : EntityTypeConfiguration<TabelaPreco>
     {
         public TabelaPrecoMap()
         {

@@ -147,7 +147,6 @@
     <Compile Include="Models\Mapping\SolicitacaoPedidoCompraMap.cs" />
     <Compile Include="Models\Mapping\StatusCotacaoMap.cs" />
     <Compile Include="Models\Mapping\StatusOrdemServicoMap.cs" />
-    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
     <Compile Include="Models\Mapping\TabelaPrecoMap.cs" />
     <Compile Include="Models\Mapping\TelefoneMap.cs" />
     <Compile Include="Models\Mapping\TipoProdutoMap.cs" />

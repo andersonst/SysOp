@@ -1,9 +1,10 @@
+using SisOpe.Domain.Entidades;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
 namespace SisOpe.Data.Context.Models.Mapping
 {
-    public class SolicitacaoPedidoCompraMap : EntityTypeConfiguration<Solicitacaopedidocompra>
+    public class SolicitacaoPedidoCompraMap : EntityTypeConfiguration<SolicitacaoPedidoCompra>
     {
         public SolicitacaoPedidoCompraMap()
         {
