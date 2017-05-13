@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SisOpe.Domain.Interfaces.Repositories
 {
-    public interface IItemReservaVendaProdutoRepository : IRepositoryBase<ItemReservaVendaProduto>
+    public interface IItemReservaVendaProdutoRepository : IRepositoryBase<ItemVendaEstoque>
     {
     }
 }

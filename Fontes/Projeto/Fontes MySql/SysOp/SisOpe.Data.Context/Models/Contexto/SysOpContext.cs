@@ -213,7 +213,7 @@ namespace SisOpe.Data.Contexto
             modelBuilder.Configurations.Add(new SolicitacaoPedidoCompraMap());
             modelBuilder.Configurations.Add(new StatusCotacaoMap());
             modelBuilder.Configurations.Add(new StatusOrdemServicoMap());
-            modelBuilder.Configurations.Add(new sysdiagramMap());
+           // modelBuilder.Configurations.Add(new sysdiagramMap());
             modelBuilder.Configurations.Add(new TabelaPrecoMap());
             modelBuilder.Configurations.Add(new TelefoneMap());
             modelBuilder.Configurations.Add(new Tipo_EmailMap());

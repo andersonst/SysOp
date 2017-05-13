@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SisOpe.Domain.Services
 {
-    public class ItemReservaVendaProdutoService : ServiceBase<ItemReservaVendaProduto>, IItemReservaVendaProdutoService
+    public class ItemReservaVendaProdutoService : ServiceBase<ItemVendaEstoque>, IItemReservaVendaProdutoService
     {
         private readonly IItemReservaVendaProdutoRepository _ìtemReservaVendaProdutoRepository;
 

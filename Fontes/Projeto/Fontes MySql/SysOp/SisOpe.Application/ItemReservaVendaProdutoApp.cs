@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SisOpe.Application
 {
-    public class ItemReservaVendaProdutoApp : AppServiceBase<ItemReservaVendaProduto>, IItemReservaVendaProdutoAppService
+    public class ItemReservaVendaProdutoApp : AppServiceBase<ItemVendaEstoque>, IItemReservaVendaProdutoAppService
     {
         private readonly IItemReservaVendaProdutoService _ìtemReservaVendaProdutoService;
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SisOpe.Domain.Interfaces.Services
 {
-    public interface IItemReservaVendaProdutoService : IServiceBase<ItemReservaVendaProduto>
+    public interface IItemReservaVendaProdutoService : IServiceBase<ItemVendaEstoque>
     {
     }
 }
