@@ -60,6 +60,12 @@
     <Compile Include="Repositories\Contato_PJRepository.cs" />
     <Compile Include="Repositories\CotacaoRepository.cs" />
     <Compile Include="Repositories\DepartamentoRepository.cs" />
+    <Compile Include="Repositories\Ecf_CaixaRepository.cs" />
+    <Compile Include="Repositories\Ecf_ConfiguracaoRepository.cs" />
+    <Compile Include="Repositories\Ecf_ImpressoraRepository.cs" />
+    <Compile Include="Repositories\Ecf_MovimentoRepository.cs" />
+    <Compile Include="Repositories\Ecf_OperadorRepository.cs" />
+    <Compile Include="Repositories\Ecf_ResolucaoRepository.cs" />
     <Compile Include="Repositories\EmailRepository.cs" />
     <Compile Include="Repositories\EnderecoRepository.cs" />
     <Compile Include="Repositories\EntradaProdutoNFRepository.cs" />

@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace SisOpe.Data.Repository.Repositories
 {
-    public class ItemReservaVendaProdutoRepository : RepositoryBase<ItemVendaEstoque>, IItemReservaVendaProdutoRepository
+    public class Ecf_OperadorRepository : RepositoryBase<Ecf_Operador>, IEcf_OperadorRepository
     {
         private readonly SysOpContext _db;
-        public ItemReservaVendaProdutoRepository(SysOpContext db)
+        public Ecf_OperadorRepository(SysOpContext db)
            : base(db)
         {
             _db = db;
