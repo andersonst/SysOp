@@ -69,6 +69,13 @@ namespace SisOpe.Domain.Interfaces.Repositories
         IVendaProdutoNFRepository VendaProdutoNFRepository { get; }
         IVendaProdutoRepository VendaProdutoRepository { get; }
 
+        IEcf_CaixaRepository Ecf_CaixaRepository { get; }
+        IEcf_ConfiguracaoRepository Ecf_ConfiguracaoRepository { get; }
+        IEcf_ImpressoraRepository Ecf_ImpressoraRepository { get; }
+        IEcf_MovimentoRepository Ecf_MovimentoRepository { get; }
+        IEcf_OperadorRepository Ecf_OperadorRepository { get; }
+        IEcf_ResolucaoRepository Ecf_ResolucaoRepository { get; }
+
         #endregion
 
 

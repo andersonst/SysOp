@@ -70,6 +70,13 @@ namespace SisOpe.Domain.Interfaces.Services
         IVendaProdutoNFService VendaProdutoNFService { get; }
         IVendaProdutoService VendaProdutoService { get; }
 
+        IEcf_CaixaService Ecf_CaixaService { get; }
+        IEcf_ConfiguracaoService Ecf_ConfiguracaoService { get; }
+        IEcf_ImpressoraService Ecf_ImpressoraService { get; }
+        IEcf_MovimentoService Ecf_MovimentoService { get; }
+        IEcf_OperadorService Ecf_OperadorService { get; }
+        IEcf_ResolucaoService Ecf_ResolucaoService { get; }
+
         #endregion
     }
 }

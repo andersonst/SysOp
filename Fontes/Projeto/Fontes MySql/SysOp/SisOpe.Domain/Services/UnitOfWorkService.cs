@@ -69,6 +69,13 @@ namespace SisOpe.Domain.Services
         private IVendaProdutoNFService _vendaProdutoNFService;
         private IVendaProdutoService _vendaProdutoService;
 
+        private IEcf_CaixaService _ecf_CaixaService;
+        private IEcf_ConfiguracaoService _ecf_ConfiguracaoService;
+        private IEcf_ImpressoraService _ecf_ImpressoraService;
+        private IEcf_MovimentoService _ecf_MovimentoService;
+        private IEcf_OperadorService _ecf_OperadorService;
+        private IEcf_ResolucaoService _ecf_ResolucaoService;
+
         #endregion
 
         public void Dispose()
@@ -345,6 +352,39 @@ namespace SisOpe.Domain.Services
         {
             get { return _vendaProdutoService ?? (_vendaProdutoService = new VendaProdutoService(_db.VendaProdutoRepository)); }
         }
+
+
+        public IEcf_CaixaService Ecf_CaixaService
+        {
+            get { return _ecf_CaixaService ?? (_ecf_CaixaService = new Ecf_CaixaService(_db.Ecf_CaixaRepository)); }
+        }
+
+        public IEcf_ConfiguracaoService Ecf_ConfiguracaoService
+        {
+            get { return _ecf_ConfiguracaoService ?? (_ecf_ConfiguracaoService = new Ecf_ConfiguracaoService(_db.Ecf_ConfiguracaoRepository)); }
+
+        }
+
+        public IEcf_ImpressoraService Ecf_ImpressoraService
+        {
+            get { return _ecf_ImpressoraService ?? (_ecf_ImpressoraService = new Ecf_ImpressoraService(_db.Ecf_ImpressoraRepository)); }
+        }
+
+        public IEcf_MovimentoService Ecf_MovimentoService
+        {
+            get { return _ecf_MovimentoService ?? (_ecf_MovimentoService = new Ecf_MovimentoService(_db.Ecf_MovimentoRepository)); }
+        }
+
+        public IEcf_OperadorService Ecf_OperadorService
+        {
+            get { return _ecf_OperadorService ?? (_ecf_OperadorService = new Ecf_OperadorService(_db.Ecf_OperadorRepository)); }
+        }
+
+        public IEcf_ResolucaoService Ecf_ResolucaoService
+        {
+            get { return _ecf_ResolucaoService ?? (_ecf_ResolucaoService = new Ecf_ResolucaoService(_db.Ecf_ResolucaoRepository)); }
+        }
+
         #endregion
     }
 }

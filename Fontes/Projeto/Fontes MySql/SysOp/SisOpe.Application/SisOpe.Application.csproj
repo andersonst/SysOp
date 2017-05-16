@@ -55,6 +55,12 @@
     <Compile Include="Contato_PJApp.cs" />
     <Compile Include="CotacaoApp.cs" />
     <Compile Include="DepartamentoApp.cs" />
+    <Compile Include="Ecf_CaixaApp.cs" />
+    <Compile Include="Ecf_ConfiguracaoApp.cs" />
+    <Compile Include="Ecf_ImpressoraApp.cs" />
+    <Compile Include="Ecf_MovimentoApp.cs" />
+    <Compile Include="Ecf_OperadorApp.cs" />
+    <Compile Include="Ecf_ResolucaoApp.cs" />
     <Compile Include="EmailApp.cs" />
     <Compile Include="EnderecoApp.cs" />
     <Compile Include="EntradaProdutoNFApp.cs" />
@@ -73,6 +79,12 @@
     <Compile Include="Interfaces\IContato_PJAppService.cs" />
     <Compile Include="Interfaces\ICotacaoAppService.cs" />
     <Compile Include="Interfaces\IDepartamentoAppService.cs" />
+    <Compile Include="Interfaces\IEcf_CaixaAppService.cs" />
+    <Compile Include="Interfaces\IEcf_ConfiguracaoAppService.cs" />
+    <Compile Include="Interfaces\IEcf_ImpressoraAppService.cs" />
+    <Compile Include="Interfaces\IEcf_MovimentoAppService.cs" />
+    <Compile Include="Interfaces\IEcf_OperadorAppService.cs" />
+    <Compile Include="Interfaces\IEcf_ResolucaoAppService.cs" />
     <Compile Include="Interfaces\IEmailAppService.cs" />
     <Compile Include="Interfaces\IEnderecoAppService.cs" />
     <Compile Include="Interfaces\IEntradaProdutoAppService.cs" />

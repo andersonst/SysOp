@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E25F2EA-A403-45F2-A62E-CA423CDCB149}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisOpe.Application</RootNamespace>
+    <AssemblyName>SisOpe.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessoApp.cs" />
+    <Compile Include="AcessoUsuarioApp.cs" />
+    <Compile Include="AppServiceBase.cs" />
+    <Compile Include="ArquivosOrdemServicoApp.cs" />
+    <Compile Include="Contato_PJApp.cs" />
+    <Compile Include="CotacaoApp.cs" />
+    <Compile Include="DepartamentoApp.cs" />
+    <Compile Include="EmailApp.cs" />
+    <Compile Include="EnderecoApp.cs" />
+    <Compile Include="EntradaProdutoNFApp.cs" />
+    <Compile Include="EntradaProdutoApp.cs" />
+    <Compile Include="EquipeOrdemServicoApp.cs" />
+    <Compile Include="FinalidadeApp.cs" />
+    <Compile Include="FormaPagamentoApp.cs" />
+    <Compile Include="FornecedorCotacaoApp.cs" />
+    <Compile Include="FuncionarioApp.cs" />
+    <Compile Include="HistoricoOrdemServicoApp.cs" />
+    <Compile Include="HistoricoStatusCotacaoApp.cs" />
+    <Compile Include="Interfaces\IAcessoAppService.cs" />
+    <Compile Include="Interfaces\IAcessoUsuarioAppService.cs" />
+    <Compile Include="Interfaces\IAppServiceBase.cs" />
+    <Compile Include="Interfaces\IArquivosOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\IContato_PJAppService.cs" />
+    <Compile Include="Interfaces\ICotacaoAppService.cs" />
+    <Compile Include="Interfaces\IDepartamentoAppService.cs" />
+    <Compile Include="Interfaces\IEmailAppService.cs" />
+    <Compile Include="Interfaces\IEnderecoAppService.cs" />
+    <Compile Include="Interfaces\IEntradaProdutoAppService.cs" />
+    <Compile Include="Interfaces\IEntradaProdutoNFAppService.cs" />
+    <Compile Include="Interfaces\IEquipeOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\IFinalidadeAppService.cs" />
+    <Compile Include="Interfaces\IFormaPagamentoAppService.cs" />
+    <Compile Include="Interfaces\IFornecedorCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IFuncionarioAppService.cs" />
+    <Compile Include="Interfaces\IHistoricoOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\IHistoricoStatusCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IItemEntradaEstoqueAppService.cs" />
+    <Compile Include="Interfaces\IItemEstoqueAppService.cs" />
+    <Compile Include="Interfaces\IItemPedidoCompraAppService.cs" />
+    <Compile Include="Interfaces\IItemPedidoCompraCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IItemProdutoNotaFiscalAppService.cs" />
+    <Compile Include="Interfaces\IItemReservaVendaProdutoAppService.cs" />
+    <Compile Include="Interfaces\IItemRetornoCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IItemSolicitacaoCompraAppService.cs" />
+    <Compile Include="Interfaces\IItemSolicitacaoCompraCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IItemTransferenciaEstoqueAppService.cs" />
+    <Compile Include="Interfaces\IItemVendaEstoqueAppService.cs" />
+    <Compile Include="Interfaces\IMarcaProdutoAppService.cs" />
+    <Compile Include="Interfaces\INotaFiscalAppService.cs" />
+    <Compile Include="Interfaces\IOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\IPagamentoOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\IPagamentoPedidoCompraAppService.cs" />
+    <Compile Include="Interfaces\IPagamentoRetornoCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IPedidoCompraAppService.cs" />
+    <Compile Include="Interfaces\IPessoaAppService.cs" />
+    <Compile Include="Interfaces\IPessoaFisicaAppService.cs" />
+    <Compile Include="Interfaces\IPessoaJuridicaAppService.cs" />
+    <Compile Include="Interfaces\IProdutoAppService.cs" />
+    <Compile Include="Interfaces\IProdutoCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IProfissaoAppService.cs" />
+    <Compile Include="Interfaces\IProfissaoFuncionarioAppService.cs" />
+    <Compile Include="Interfaces\IReservaAppService.cs" />
+    <Compile Include="Interfaces\ISolicitacaoCompraAppService.cs" />
+    <Compile Include="Interfaces\ISolicitacaoPedidoCompraAppService.cs" />
+    <Compile Include="Interfaces\IStatusCotacaoAppService.cs" />
+    <Compile Include="Interfaces\IStatusOrdemServicoAppService.cs" />
+    <Compile Include="Interfaces\ITabelaPrecoAppService.cs" />
+    <Compile Include="Interfaces\ITelefoneAppService.cs" />
+    <Compile Include="Interfaces\ITipoProdutoAppService.cs" />
+    <Compile Include="Interfaces\ITransferenciaEstoqueAppService.cs" />
+    <Compile Include="Interfaces\IUnidadeAppService.cs" />
+    <Compile Include="Interfaces\IUnidadeMedidaAppService.cs" />
+    <Compile Include="Interfaces\IUnitofWorkAppService.cs" />
+    <Compile Include="Interfaces\IUsuarioAppService.cs" />
+    <Compile Include="Interfaces\IVendaProdutoAppService.cs" />
+    <Compile Include="Interfaces\IVendaProdutoNFAppService.cs" />
+    <Compile Include="ItemEntradaEstoqueApp.cs" />
+    <Compile Include="ItemEstoqueApp.cs" />
+    <Compile Include="ItemPedidoCompraCotacaoApp.cs" />
+    <Compile Include="ItemPedidoCompraApp.cs" />
+    <Compile Include="ItemProdutoNotaFiscalApp.cs" />
+    <Compile Include="ItemReservaVendaProdutoApp.cs" />
+    <Compile Include="ItemRetornoCotacaoApp.cs" />
+    <Compile Include="ItemSolicitacaoCompraCotacaoApp.cs" />
+    <Compile Include="ItemSolicitacaoCompraApp.cs" />
+    <Compile Include="ItemTransferenciaEstoqueApp.cs" />
+    <Compile Include="ItemVendaEstoqueApp.cs" />
+    <Compile Include="ItemVendaEstoqueService.cs" />
+    <Compile Include="ItemVendaApp.cs" />
+    <Compile Include="MarcaProdutoApp.cs" />
+    <Compile Include="NotaFiscalApp.cs" />
+    <Compile Include="OrdemServicoApp.cs" />
+    <Compile Include="PagamentoOrdemServicoApp.cs" />
+    <Compile Include="PagamentoPedidoCompraApp.cs" />
+    <Compile Include="PagamentoRetornoCotacaoApp.cs" />
+    <Compile Include="PedidoCompraApp.cs" />
+    <Compile Include="PessoaFisicaApp.cs" />
+    <Compile Include="PessoaJuridicaApp.cs" />
+    <Compile Include="PessoaApp.cs" />
+    <Compile Include="ProdutoCotacaoApp.cs" />
+    <Compile Include="ProdutoApp.cs" />
+    <Compile Include="ProfissaoFuncionarioApp.cs" />
+    <Compile Include="ProfissaoApp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservaApp.cs" />
+    <Compile Include="SolicitacaoCompraApp.cs" />
+    <Compile Include="SolicitacaoPedidoCompraApp.cs" />
+    <Compile Include="StatusCotacaoApp.cs" />
+    <Compile Include="StatusOrdemServicoApp.cs" />
+    <Compile Include="TabelaPrecoApp.cs" />
+    <Compile Include="TelefoneApp.cs" />
+    <Compile Include="TipoProdutoApp.cs" />
+    <Compile Include="TransferenciaEstoqueApp.cs" />
+    <Compile Include="UnidadeMedidaApp.cs" />
+    <Compile Include="UnidadeApp.cs" />
+    <Compile Include="UnitOfWorkApp.cs" />
+    <Compile Include="UsuarioApp.cs" />
+    <Compile Include="VendaProdutoNFApp.cs" />
+    <Compile Include="VendaProdutoApp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SisOpe.Domain\SisOpe.Domain.csproj">
+      <Project>{64241233-b9c2-4a81-b536-b918ad06c693}</Project>
+      <Name>SisOpe.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\SisOpe.Application.dll" />
+    <Content Include="bin\Debug\SisOpe.Application.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

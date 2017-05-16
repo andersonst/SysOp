@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1431D9F-3CDB-4F9F-BEA5-64B79329798E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisOpe.Data.Context</RootNamespace>
+    <AssemblyName>SisOpe.Data.Context</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Contexto\SysOpContext.cs" />
+    <Compile Include="Models\Mapping\AcessoMap.cs" />
+    <Compile Include="Models\Mapping\AcessoUsuarioMap.cs" />
+    <Compile Include="Models\Mapping\ArquivosOrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\BancoMap.cs" />
+    <Compile Include="Models\Mapping\CfopMap.cs" />
+    <Compile Include="Models\Mapping\ClienteMap.cs" />
+    <Compile Include="Models\Mapping\ContatoMap.cs" />
+    <Compile Include="Models\Mapping\Contato_EmailMap.cs" />
+    <Compile Include="Models\Mapping\Contato_PJMap.cs" />
+    <Compile Include="Models\Mapping\Contato_TelefoneMap.cs" />
+    <Compile Include="Models\Mapping\CotacaoMap.cs" />
+    <Compile Include="Models\Mapping\DepartamentoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_CaixaMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Cheque_ClienteMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_ConfiguracaoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_ContadorMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Dav_CabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Dav_DetalheMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Documentos_EmitidosMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_EmpresaMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_FuncionarioMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_ImpressoraMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_MovimentoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_OperadorMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Posicao_ComponentesMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Pre_Venda_CabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Pre_Venda_DetalheMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Recebimento_Nao_FiscalMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_ResolucaoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_SangriaMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_SuprimentoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Tipo_PagamentoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Total_Tipo_PgtoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Tributo_ProdutoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_TurnoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Venda_CabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\Ecf_Venda_DetalheMap.cs" />
+    <Compile Include="Models\Mapping\EmailMap.cs" />
+    <Compile Include="Models\Mapping\EnderecoMap.cs" />
+    <Compile Include="Models\Mapping\Endereco_2Map.cs" />
+    <Compile Include="Models\Mapping\EntradaProdutoMap.cs" />
+    <Compile Include="Models\Mapping\EntradaProdutoNFMap.cs" />
+    <Compile Include="Models\Mapping\EquipeOrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\Ficha_TecnicaMap.cs" />
+    <Compile Include="Models\Mapping\FinalidadeMap.cs" />
+    <Compile Include="Models\Mapping\FormaPagamentoMap.cs" />
+    <Compile Include="Models\Mapping\FornecedorCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\FuncionarioMap.cs" />
+    <Compile Include="Models\Mapping\HistoricoOrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\HistoricoStatusCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\ItemEntradaEstoqueMap.cs" />
+    <Compile Include="Models\Mapping\ItemEstoqueMap.cs" />
+    <Compile Include="Models\Mapping\ItemPedidoCompraCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\ItemPedidoCompraMap.cs" />
+    <Compile Include="Models\Mapping\ItemProdutoNotaFiscalMap.cs" />
+    <Compile Include="Models\Mapping\ItemRetornoCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\ItemSolicitacaoCompraCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\ItemSolicitacaoCompraMap.cs" />
+    <Compile Include="Models\Mapping\ItemTransferenciaEstoqueMap.cs" />
+    <Compile Include="Models\Mapping\ItemVendaEstoqueMap.cs" />
+    <Compile Include="Models\Mapping\MarcaProdutoMap.cs" />
+    <Compile Include="Models\Mapping\Nf2_CabecalhoMap.cs" />
+    <Compile Include="Models\Mapping\Nf2_DetalheMap.cs" />
+    <Compile Include="Models\Mapping\NotaFiscalMap.cs" />
+    <Compile Include="Models\Mapping\OrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\PagamentoOrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\PagamentoPedidoCompraMap.cs" />
+    <Compile Include="Models\Mapping\PagamentoRetornoCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\PedidoCompraMap.cs" />
+    <Compile Include="Models\Mapping\PessoaFisicaMap.cs" />
+    <Compile Include="Models\Mapping\PessoaJuridicaMap.cs" />
+    <Compile Include="Models\Mapping\PessoaMap.cs" />
+    <Compile Include="Models\Mapping\ProdutoCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\ProdutoMap.cs" />
+    <Compile Include="Models\Mapping\Produto_2Map.cs" />
+    <Compile Include="Models\Mapping\Produto_PromocaoMap.cs" />
+    <Compile Include="Models\Mapping\ProfissaoFuncionarioMap.cs" />
+    <Compile Include="Models\Mapping\ProfissaoMap.cs" />
+    <Compile Include="Models\Mapping\R02Map.cs" />
+    <Compile Include="Models\Mapping\R03Map.cs" />
+    <Compile Include="Models\Mapping\R06Map.cs" />
+    <Compile Include="Models\Mapping\R07Map.cs" />
+    <Compile Include="Models\Mapping\ReservaMap.cs" />
+    <Compile Include="Models\Mapping\Sintegra_60aMap.cs" />
+    <Compile Include="Models\Mapping\Sintegra_60mMap.cs" />
+    <Compile Include="Models\Mapping\Situacao_CliMap.cs" />
+    <Compile Include="Models\Mapping\SolicitacaoCompraMap.cs" />
+    <Compile Include="Models\Mapping\SolicitacaoPedidoCompraMap.cs" />
+    <Compile Include="Models\Mapping\StatusCotacaoMap.cs" />
+    <Compile Include="Models\Mapping\StatusOrdemServicoMap.cs" />
+    <Compile Include="Models\Mapping\TabelaPrecoMap.cs" />
+    <Compile Include="Models\Mapping\TelefoneMap.cs" />
+    <Compile Include="Models\Mapping\TipoProdutoMap.cs" />
+    <Compile Include="Models\Mapping\Tipo_EmailMap.cs" />
+    <Compile Include="Models\Mapping\Tipo_TelefoneMap.cs" />
+    <Compile Include="Models\Mapping\TransferenciaEstoqueMap.cs" />
+    <Compile Include="Models\Mapping\UnidadeMap.cs" />
+    <Compile Include="Models\Mapping\UnidadeMedidaMap.cs" />
+    <Compile Include="Models\Mapping\Unidade_ProdutoMap.cs" />
+    <Compile Include="Models\Mapping\UsuarioMap.cs" />
+    <Compile Include="Models\Mapping\VendaProdutoMap.cs" />
+    <Compile Include="Models\Mapping\VendaProdutoNFMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SisOpe.Domain\SisOpe.Domain.csproj">
+      <Project>{64241233-b9c2-4a81-b536-b918ad06c693}</Project>
+      <Name>SisOpe.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

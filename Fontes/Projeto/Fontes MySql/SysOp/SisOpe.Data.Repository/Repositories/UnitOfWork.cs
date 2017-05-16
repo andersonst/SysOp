@@ -67,6 +67,12 @@ namespace SisOpe.Data.Repository.Repositories
         private IUsuarioRepository _usuarioRepository;
         private IVendaProdutoNFRepository _vendaProdutoNFRepository;
         private IVendaProdutoRepository _vendaProdutoRepository;
+        private IEcf_CaixaRepository _ecf_CaixaRepository;
+        private IEcf_ConfiguracaoRepository _ecf_ConfiguracaoRepository;
+        private IEcf_ImpressoraRepository _ecf_ImpressoraRepository;
+        private IEcf_MovimentoRepository _ecf_MovimentoRepository;
+        private IEcf_OperadorRepository _ecf_OperadorRepository;
+        private IEcf_ResolucaoRepository _ecf_ResolucaoRepository;
 
         #endregion
 
@@ -345,6 +351,37 @@ namespace SisOpe.Data.Repository.Repositories
         public IVendaProdutoRepository VendaProdutoRepository
         {
             get { return _vendaProdutoRepository ?? (_vendaProdutoRepository = new VendaProdutoRepository(_db)); }
+        }
+
+        public IEcf_CaixaRepository  Ecf_CaixaRepository
+        {
+            get { return _ecf_CaixaRepository ?? (_ecf_CaixaRepository = new Ecf_CaixaRepository(_db)); }
+        }
+
+        public IEcf_ConfiguracaoRepository Ecf_ConfiguracaoRepository
+        {
+            get { return _ecf_ConfiguracaoRepository ?? (_ecf_ConfiguracaoRepository = new Ecf_ConfiguracaoRepository(_db)); }
+
+        }
+
+        public IEcf_ImpressoraRepository  Ecf_ImpressoraRepository
+        {
+            get { return _ecf_ImpressoraRepository ?? (_ecf_ImpressoraRepository = new Ecf_ImpressoraRepository(_db)); }
+        }
+
+        public IEcf_MovimentoRepository Ecf_MovimentoRepository
+        {
+            get { return _ecf_MovimentoRepository ?? (_ecf_MovimentoRepository = new Ecf_MovimentoRepository(_db)); }
+        }
+
+        public IEcf_OperadorRepository Ecf_OperadorRepository
+        {
+            get { return _ecf_OperadorRepository ?? (_ecf_OperadorRepository = new Ecf_OperadorRepository(_db)); }
+        }
+
+        public IEcf_ResolucaoRepository Ecf_ResolucaoRepository
+        {
+            get { return _ecf_ResolucaoRepository ?? (_ecf_ResolucaoRepository = new Ecf_ResolucaoRepository(_db)); }
         }
         #endregion
     }

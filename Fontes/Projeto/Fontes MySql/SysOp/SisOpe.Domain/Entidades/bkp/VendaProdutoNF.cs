@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+
+namespace SisOpe.Domain.Entidades
+{
+    public partial class VendaProdutoNF
+    {
+        public int IdVendaProdutoNF { get; set; }
+        public Nullable<int> IdVendaProduto { get; set; }
+        public Nullable<int> IdNotaFiscal { get; set; }
+    }
+}

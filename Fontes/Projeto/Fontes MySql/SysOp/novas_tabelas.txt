@@ -1,0 +1,1 @@
+Caixa -> Ecf_Resolucao, Ecf_Configuracao, Ecf_Impressora, Ecf_Caixa, Ecf_Operador, Ecf_Movimento
