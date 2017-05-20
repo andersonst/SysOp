@@ -11,7 +11,7 @@ namespace SisOpe.Application
 {
     public class UnitOfWorkApp : IUnitOfWorkAppService
     {
-         #region propriedades
+        #region propriedades
         private IAcessoAppService _acessoApp;
         private IAcessoUsuarioAppService _acessoUsuarioApp;
         private IArquivosOrdemServicoAppService _arquivosOrdemServicoApp;
@@ -68,6 +68,13 @@ namespace SisOpe.Application
         private IUsuarioAppService _usuarioApp;
         private IVendaProdutoNFAppService _vendaProdutoNFApp;
         private IVendaProdutoAppService _vendaProdutoApp;
+
+        private IEcf_CaixaAppService _ecf_CaixaApp;
+        private IEcf_ConfiguracaoAppService _ecf_ConfiguracaoApp;
+        private IEcf_ImpressoraAppService _ecf_ImpressoraApp;
+        private IEcf_MovimentoAppService _ecf_MovimentoApp;
+        private IEcf_OperadorAppService _ecf_OperadorApp;
+        private IEcf_ResolucaoAppService _ecf_ResolucaoApp;
 
         #endregion
 
@@ -345,6 +352,38 @@ namespace SisOpe.Application
         {
             get { return _vendaProdutoApp ?? (_vendaProdutoApp = new VendaProdutoApp(_db.VendaProdutoService)); }
         }
+
+        public IEcf_CaixaAppService Ecf_CaixaApp
+        {
+            get { return _ecf_CaixaApp ?? (_ecf_CaixaApp = new Ecf_CaixaApp(_db.Ecf_CaixaService)); }
+        }
+
+        public IEcf_ConfiguracaoAppService Ecf_ConfiguracaoApp
+        {
+            get { return _ecf_ConfiguracaoApp ?? (_ecf_ConfiguracaoApp = new Ecf_ConfiguracaoApp(_db.Ecf_ConfiguracaoService)); }
+
+        }
+
+        public IEcf_ImpressoraAppService Ecf_ImpressoraApp
+        {
+            get { return _ecf_ImpressoraApp ?? (_ecf_ImpressoraApp = new Ecf_ImpressoraApp(_db.Ecf_ImpressoraService)); }
+        }
+
+        public IEcf_MovimentoAppService Ecf_MovimentoApp
+        {
+            get { return _ecf_MovimentoApp ?? (_ecf_MovimentoApp = new Ecf_MovimentoApp(_db.Ecf_MovimentoService)); }
+        }
+
+        public IEcf_OperadorAppService Ecf_OperadorApp
+        {
+            get { return _ecf_OperadorApp ?? (_ecf_OperadorApp = new Ecf_OperadorApp(_db.Ecf_OperadorService)); }
+        }
+
+        public IEcf_ResolucaoAppService Ecf_ResolucaoApp
+        {
+            get { return _ecf_ResolucaoApp ?? (_ecf_ResolucaoApp = new Ecf_ResolucaoApp(_db.Ecf_ResolucaoService)); }
+        }
+
         #endregion
     }
 }

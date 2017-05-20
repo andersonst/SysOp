@@ -25,7 +25,9 @@ namespace SisOpe.Application.Interfaces
         IFornecedorCotacaoAppService FornecedorCotacaoApp { get; }
         IFuncionarioAppService FuncionarioApp { get; }
         IHistoricoOrdemServicoAppService HistoricoOrdemServicoApp { get; }
+
         IHistoricoStatusCotacaoAppService HistoricoStatusCotacaoApp { get; }
+
         IItemEntradaEstoqueAppService ItemEntradaEstoqueApp { get; }
         IItemEstoqueAppService ItemEstoqueApp { get; }
         IItemPedidoCompraCotacaoAppService ItemPedidoCompraCotacaoApp { get; }
@@ -66,6 +68,13 @@ namespace SisOpe.Application.Interfaces
         IUsuarioAppService UsuarioApp { get; }
         IVendaProdutoNFAppService VendaProdutoNFApp { get; }
         IVendaProdutoAppService VendaProdutoApp { get; }
+
+        IEcf_CaixaAppService Ecf_CaixaApp { get; }
+        IEcf_ConfiguracaoAppService Ecf_ConfiguracaoApp { get; }
+        IEcf_ImpressoraAppService Ecf_ImpressoraApp { get; }
+        IEcf_MovimentoAppService Ecf_MovimentoApp { get; }
+        IEcf_OperadorAppService Ecf_OperadorApp { get; }
+        IEcf_ResolucaoAppService Ecf_ResolucaoApp { get; }
 
         #endregion
     }
