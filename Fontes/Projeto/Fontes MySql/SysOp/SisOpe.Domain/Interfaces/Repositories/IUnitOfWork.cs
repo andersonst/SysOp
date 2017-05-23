@@ -76,6 +76,12 @@ namespace SisOpe.Domain.Interfaces.Repositories
         IEcf_OperadorRepository Ecf_OperadorRepository { get; }
         IEcf_ResolucaoRepository Ecf_ResolucaoRepository { get; }
 
+        IEcf_Posicao_ComponentesRepository Ecf_Posicao_ComponentesRepository { get; }
+
+        IEcf_Dav_DetalheRepository Ecf_Dav_DetalheRepository { get; }
+
+        IEcf_Dav_CabecalhoRepository Ecf_Dav_CabecalhoRepository { get; }
+         
         #endregion
 
 

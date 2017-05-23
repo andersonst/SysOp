@@ -73,7 +73,8 @@ namespace SisOpe.Data.Repository.Repositories
         private IEcf_MovimentoRepository _ecf_MovimentoRepository;
         private IEcf_OperadorRepository _ecf_OperadorRepository;
         private IEcf_ResolucaoRepository _ecf_ResolucaoRepository;
-
+        private IEcf_Posicao_ComponentesRepository _ecf_Posicao_ComponentesRepository;
+        private IEcf_Dav_CabecalhoRepository _ecf_Dav_CabecalhoRepository;
         #endregion
 
         public void Dispose()
@@ -382,6 +383,16 @@ namespace SisOpe.Data.Repository.Repositories
         public IEcf_ResolucaoRepository Ecf_ResolucaoRepository
         {
             get { return _ecf_ResolucaoRepository ?? (_ecf_ResolucaoRepository = new Ecf_ResolucaoRepository(_db)); }
+        }
+
+        public IEcf_Posicao_ComponentesRepository  Ecf_Posicao_ComponentesRepository
+        {
+            get { return _ecf_Posicao_ComponentesRepository ?? (_ecf_Posicao_ComponentesRepository = new Ecf_Posicao_ComponentesRepository(_db)); }
+        }
+
+        public IEcf_Dav_CabecalhoRepository  Ecf_Dav_CabecalhoRepository
+        {
+            get { return _ecf_Dav_CabecalhoRepository ?? (_ecf_Dav_CabecalhoRepository = new Ecf_Dav_CabecalhoRepository(_db)); }
         }
         #endregion
     }

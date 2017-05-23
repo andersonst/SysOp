@@ -77,6 +77,11 @@ namespace SisOpe.Domain.Interfaces.Services
         IEcf_OperadorService Ecf_OperadorService { get; }
         IEcf_ResolucaoService Ecf_ResolucaoService { get; }
 
+
+        IEcf_Posicao_ComponentesService Ecf_Posicao_ComponentesService { get; }
+        IEcf_Dav_DetalheService Ecf_Dav_DetalheService { get; }
+        IEcf_Dav_CabecalhoService Ecf_Dav_CabecalhoService { get; }
+
         #endregion
     }
 }

@@ -62,9 +62,12 @@
     <Compile Include="Repositories\DepartamentoRepository.cs" />
     <Compile Include="Repositories\Ecf_CaixaRepository.cs" />
     <Compile Include="Repositories\Ecf_ConfiguracaoRepository.cs" />
+    <Compile Include="Repositories\Ecf_Dav_CabecalhoRepository.cs" />
+    <Compile Include="Repositories\Ecf_Dav_DetalheRepository.cs" />
     <Compile Include="Repositories\Ecf_ImpressoraRepository.cs" />
     <Compile Include="Repositories\Ecf_MovimentoRepository.cs" />
     <Compile Include="Repositories\Ecf_OperadorRepository.cs" />
+    <Compile Include="Repositories\Ecf_Posicao_ComponentesRepository.cs" />
     <Compile Include="Repositories\Ecf_ResolucaoRepository.cs" />
     <Compile Include="Repositories\EmailRepository.cs" />
     <Compile Include="Repositories\EnderecoRepository.cs" />
