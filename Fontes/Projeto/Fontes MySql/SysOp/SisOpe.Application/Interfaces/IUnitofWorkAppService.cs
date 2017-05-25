@@ -76,6 +76,9 @@ namespace SisOpe.Application.Interfaces
         IEcf_OperadorAppService Ecf_OperadorApp { get; }
         IEcf_ResolucaoAppService Ecf_ResolucaoApp { get; }
 
+        IEcf_Dav_CabecalhoAppService Ecf_Dav_CabecalhoApp { get; }
+        IEcf_Dav_DetalheAppService Ecf_Dav_DetalheApp { get; }
+        IEcf_FuncionarioAppService Ecf_FuncionarioApp { get; }
         #endregion
     }
 }

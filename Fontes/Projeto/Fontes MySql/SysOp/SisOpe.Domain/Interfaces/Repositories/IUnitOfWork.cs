@@ -81,6 +81,8 @@ namespace SisOpe.Domain.Interfaces.Repositories
         IEcf_Dav_DetalheRepository Ecf_Dav_DetalheRepository { get; }
 
         IEcf_Dav_CabecalhoRepository Ecf_Dav_CabecalhoRepository { get; }
+
+        IEcf_FuncionarioRepository Ecf_FuncionarioRepository { get; }
          
         #endregion
 

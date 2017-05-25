@@ -79,6 +79,8 @@ namespace SisOpe.Domain.Services
         private IEcf_Posicao_ComponentesService _ecf_Posicao_ComponentesService;
         private IEcf_Dav_DetalheService _ecf_Dav_DetalheService;
         private IEcf_Dav_CabecalhoService _ecf_Dav_CabecalhoService;
+
+        private IEcf_FuncionarioService _ecf_FuncionarioService;
         #endregion
 
         public void Dispose()
@@ -401,6 +403,11 @@ namespace SisOpe.Domain.Services
         public IEcf_Dav_CabecalhoService Ecf_Dav_CabecalhoService
         {
             get { return _ecf_Dav_CabecalhoService ?? (_ecf_Dav_CabecalhoService = new Ecf_Dav_CabecalhoService(_db.Ecf_Dav_CabecalhoRepository)); }
+        }
+
+        public IEcf_FuncionarioService Ecf_FuncionarioService
+        {
+            get { return _ecf_FuncionarioService ?? (_ecf_FuncionarioService = new Ecf_FuncionarioService(_db.Ecf_FuncionarioRepository)); }
         }
         #endregion
     }

@@ -82,6 +82,8 @@ namespace SisOpe.Domain.Interfaces.Services
         IEcf_Dav_DetalheService Ecf_Dav_DetalheService { get; }
         IEcf_Dav_CabecalhoService Ecf_Dav_CabecalhoService { get; }
 
+        IEcf_FuncionarioService Ecf_FuncionarioService { get; }
+
         #endregion
     }
 }

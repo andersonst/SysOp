@@ -168,6 +168,7 @@
     <Compile Include="Interfaces\Repositories\IEcf_ConfiguracaoRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEcf_Dav_CabecalhoRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEcf_Dav_DetalheRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEcf_FuncionarioRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEcf_ImpressoraRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEcf_MovimentoRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEcf_OperadorRepository.cs" />
@@ -235,6 +236,7 @@
     <Compile Include="Interfaces\Services\IEcf_ConfiguracaoService.cs" />
     <Compile Include="Interfaces\Services\IEcf_Dav_CabecalhoService.cs" />
     <Compile Include="Interfaces\Services\IEcf_Dav_DetalheService.cs" />
+    <Compile Include="Interfaces\Services\IEcf_FuncionarioService.cs" />
     <Compile Include="Interfaces\Services\IEcf_ImpressoraService.cs" />
     <Compile Include="Interfaces\Services\IEcf_MovimentoService.cs" />
     <Compile Include="Interfaces\Services\IEcf_OperadorService.cs" />
@@ -303,6 +305,7 @@
     <Compile Include="Services\Ecf_ConfiguracaoService.cs" />
     <Compile Include="Services\Ecf_Dav_CabecalhoService.cs" />
     <Compile Include="Services\Ecf_Dav_DetalheService.cs" />
+    <Compile Include="Services\Ecf_FuncionarioService.cs" />
     <Compile Include="Services\Ecf_ImpressoraService.cs" />
     <Compile Include="Services\Ecf_MovimentoService.cs" />
     <Compile Include="Services\Ecf_OperadorService.cs" />

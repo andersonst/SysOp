@@ -76,6 +76,10 @@ namespace SisOpe.Application
         private IEcf_OperadorAppService _ecf_OperadorApp;
         private IEcf_ResolucaoAppService _ecf_ResolucaoApp;
 
+        private IEcf_Dav_CabecalhoAppService _ecf_Dav_CabecalhoApp;
+        private IEcf_Dav_DetalheAppService _ecf_Dav_DetalheApp;
+        private IEcf_FuncionarioAppService _ecf_FuncionarioApp;
+
         #endregion
 
         
@@ -382,6 +386,22 @@ namespace SisOpe.Application
         public IEcf_ResolucaoAppService Ecf_ResolucaoApp
         {
             get { return _ecf_ResolucaoApp ?? (_ecf_ResolucaoApp = new Ecf_ResolucaoApp(_db.Ecf_ResolucaoService)); }
+        }
+
+
+        public IEcf_Dav_CabecalhoAppService Ecf_Dav_CabecalhoApp
+        {
+            get { return _ecf_Dav_CabecalhoApp ?? (_ecf_Dav_CabecalhoApp = new Ecf_Dav_CabecalhoApp(_db.Ecf_Dav_CabecalhoService)); }
+        }
+
+        public IEcf_Dav_DetalheAppService Ecf_Dav_DetalheApp
+        {
+            get { return _ecf_Dav_DetalheApp ?? (_ecf_Dav_DetalheApp = new Ecf_Dav_DetalheApp(_db.Ecf_Dav_DetalheService)); }
+        }
+
+        public IEcf_FuncionarioAppService  Ecf_FuncionarioApp
+        {
+            get { return _ecf_FuncionarioApp ?? (_ecf_FuncionarioApp = new Ecf_FuncionarioApp(_db.Ecf_FuncionarioService)); }
         }
 
         #endregion

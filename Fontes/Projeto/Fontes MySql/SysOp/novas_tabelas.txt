@@ -1,3 +1,4 @@
 Caixa -> Ecf_Resolucao, Ecf_Configuracao, Ecf_Impressora, Ecf_Caixa, Ecf_Operador, Ecf_Movimento
 ConfiguracaoLayout -> Ecf_Posicao_Componentes
-Dav ->
+Dav -> ECF_DAV_CABECALHO, ECF_DAV_DETALHE
+Funcionario -> Ecf_Funcionario
